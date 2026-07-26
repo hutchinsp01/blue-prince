@@ -20,6 +20,10 @@
   - West and east one is working
     - east one is in great hall
 
+# Aquarium
+- X marks the spot under the bbq in patio
+- Arrow pointing at filing cabinet in archive
+
 # Archive
 - Insurgent group RLCF
 - Marion Mary Marigold went missing at 3:45pm Friday
@@ -50,7 +54,7 @@
 - A New Clue by Marion Marigold
 - HOLY SHIT BOOKS ARE EXPENSIVE
 
-# Bourdoir
+# Boudoir
 - safe code - 2412
 - Red Note - 4
   - Hebert, hid details of marions dissapearance, from Daniel
@@ -95,6 +99,11 @@
 - with lights on and magnifying glass check out some of the images
 - Has image of Tree with date 11-28
 - Green Memos in Hartleys room are always false
+
+# Den
+- 2 back clocks have diagrams indicating
+  - 9:15 and 11:05
+  - 3:45 and 1:55
 
 # Dovecote
 - Letters from Mary (Mary Epsen; "Marion Marigold" is her author pen name)
@@ -222,6 +231,7 @@
 # Music Room
 - first words on the sheets are true message 9 10 (bold words)
 - find among the white trees under two stones 9 10 (first word on page)
+  - Found an observatory
 - Denoted in verse?? cleff symbol??
 
 # Office
