@@ -3,6 +3,7 @@
 - odd gem mount on the floor, but no gem
 - can divert smudge pot power to the odd blue flame thing - I think this may stop my extra food though
 - Heart on tree by orchard - CHOPPED DOWN????
+- I feel like the sundial means something???
 
 # Attic
 - Note about the decline of The Red Prince - April 12
@@ -91,6 +92,9 @@
 - Switches at bottom of pillar facing statue
 - C X E T (bottom of statue)
 
+# Coat Check
+- Maybe an entrance to the basement? - floor access hole
+
 # Conference Room
 - After meeting all notes put in office safe
 - Safe Code - 9083? Probably wrong
@@ -104,6 +108,9 @@
 - 2 back clocks have diagrams indicating
   - 9:15 and 11:05
   - 3:45 and 1:55
+
+# Dining Room
+- Chairs backrest pattern matches the CPU pattern in blackbridge grotto
 
 # Dovecote
 - Letters from Mary (Mary Epsen; "Marion Marigold" is her author pen name)
@@ -120,6 +127,7 @@
 
 # Drawing Room
 - All the photos have something to do with step length?
+- Candle stick on left - Safe
 
 # Foundation
 - Back of foundation has a lever you can spin to move lift
@@ -262,6 +270,12 @@
 - Contains dynamite
 - has some purple and yellow square puzzle I fucked up (edit: unlocked it and got an allowance)
 
+# Room 46
+- Lots of busts of different people
+- Map of the world with 8 pins - Need to know the order of something? - Probably from the book
+- Marigold statue missing
+
+
 # Root Cellar
 - Family Tree
 - Note saying "no _sign_ has been found yet" of Marion Marigold since being since getting into a carriage last friday
@@ -277,6 +291,9 @@
 - 8 red envelopes on 8 pedestals
 - 8 letters by 8 different people
 - Wel'll only find 7
+- 3rd
+- missing item in entrance hall - A bird statue??
+- young boy watched from afar
 
 # Schoolhouse
 - Has tap for the wierd yellow pipes outside, lights a blue flame on the lookout (STAYS ON)
@@ -306,6 +323,9 @@
 - 3 People stayed down there during REDGUARD
 - Need to figure out what day it is for timelock
 
+# Shrine
+- 10 coins - Blessing of the General
+
 # Solarium
 - Note on how to open Cloister
 
@@ -334,6 +354,13 @@
 - Has a couple foremans log
 - Has a book explaning the symbol I found in the secret garden
 
+## The Underpass
+- Red message 1 - May 8th
+  - Dear Baron Sinclair
+  - From Worth Laude
+  - Blackmail letter?
+- Theres a little castle underground - kinda cute
+
 # Utility Closet
 - Set these vac lights
   - Fuse (off, blue, green, white, red, purple)
@@ -347,9 +374,13 @@
   - Shovel + Metal Detector = Detector Shovel
   - Shovel + Compass = Dowsing Rod
   - Sledge Hammer + Battery Pack + Lever = Power Hammer
-  - Shovel = Battery Pack + Lever = Jack Hammer
+  - Shovel + Battery Pack + Lever = Jack Hammer
   - Lock Pick + Metal Detector = Pick Sound Amplifier
   - Battery Pack + Compass = Electromagnet
+
+# Gallery
+- 4 artworks - I assume I have to figure out their names?
+- THICK
 
 # General (house-wide)
 - Memos
@@ -372,7 +403,7 @@
 - Secret Garden Key
   - Use to unlock the secret garden
 - Silver Key
-  - Not sure - In the coat check
+  - Not sure 
 - Prism Key
   - Unlocks room of same colour
 - Safe Deposit Box - Key 149

@@ -8,8 +8,11 @@
 - Office
   - Safe Code - 9083? Probably wrong
 - Study
--
--
+  - idk
+- Drawing Room - Candle stick on left - Safe
+  - idk
+- The Underpass
+  - May 8th
 -
 
 # 4 digit
