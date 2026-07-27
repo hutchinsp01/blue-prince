@@ -5,7 +5,8 @@ Run:  python blue_prince.py serve   (or python -m blue_prince serve)
 Then open http://127.0.0.1:8765 in a browser.
 
 Click a grid cell, click each door (off -> exit -> entrance) on the room
-diagram, type the room name + two images, and hit Save. Stdlib only.
+diagram, right-click a door to mark it locked/security, type the room name,
+and hit Save. Stdlib only.
 """
 from __future__ import annotations
 
@@ -14,15 +15,10 @@ import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
-from blue_prince import COLUMNS, DEFAULT_LOG, OUTER_COLUMN, Log, Room
+from blue_prince import (COLUMNS, DEFAULT_LOG, OUTER_COLUMN, Log, Room,
+                         add_room_name, load_room_names)
 
 DEFAULT_PORT = 8765  # 8000 is often taken (Docker/Django); pick something quieter
-
-
-def _room_json(room: Room) -> dict[str, object]:
-    data = room.to_row()
-    data["derived_letter"] = room.derived_letter
-    return data
 
 
 def build_state(day: int | None = None) -> dict[str, object]:
@@ -34,25 +30,12 @@ def build_state(day: int | None = None) -> dict[str, object]:
     grid_cols = set(COLUMNS)
     rooms = []
     for r in view:
-        data = _room_json(r)
+        data = r.to_row()
         if r.column in grid_cols:
             data["door_status"] = {d: view.door_status(r, d) for d in sorted(r.doors)}
         else:  # outer room: off-grid, connections not modelled
             data["door_status"] = {d: "outer" for d in sorted(r.doors)}
         rooms.append(data)
-
-    # Per-cell prefill hints from OTHER days (images + letter are position-based).
-    # Take the most recent other day that recorded anything useful for that cell.
-    hints: dict[str, dict[str, object]] = {}
-    for other in sorted((d for d in days if d != day), reverse=True):
-        for r in log.day(other):
-            key = f"{r.column},{r.row}"
-            if key in hints:
-                continue
-            letter = r.letter if (r.letter and r.letter != "?") else ""
-            if r.image1 or r.image2 or letter:
-                hints[key] = {"image1": r.image1, "image2": r.image2,
-                              "letter": letter, "day": other}
 
     # Chess prefill is by ROOM NAME, not position: a given room always holds the
     # same piece across days. Map each name to its most recently recorded piece.
@@ -68,7 +51,7 @@ def build_state(day: int | None = None) -> dict[str, object]:
                                    "chess_piece": piece, "day": r.day}
 
     return {"day": day, "days": days, "columns": list(COLUMNS), "rooms": rooms,
-            "hints": hints, "chess_by_room": chess_by_room}
+            "chess_by_room": chess_by_room, "room_names": load_room_names()}
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -118,6 +101,9 @@ class Handler(BaseHTTPRequestHandler):
             log.remove(day, column, row)
             print(f"deleted: day {day} {column}{row}")
         else:
+            # The form no longer edits images/letter (that puzzle is done);
+            # carry stored values through so re-saving a cell keeps them.
+            existing = log.day(day).at(row, column)
             room = Room(
                 day=day,
                 room=str(payload.get("room", "")).strip(),
@@ -125,13 +111,17 @@ class Handler(BaseHTTPRequestHandler):
                 row=row,
                 entry=str(payload.get("entry", "")).strip().upper(),
                 exits=str(payload.get("exits", "")).strip().upper(),
-                image1=str(payload.get("image1", "")).strip(),
-                image2=str(payload.get("image2", "")).strip(),
-                letter=str(payload.get("letter", "")).strip(),
+                image1=existing.image1 if existing else "",
+                image2=existing.image2 if existing else "",
+                letter=existing.letter if existing else "",
                 chess_colour=str(payload.get("chess_colour", "")).strip().lower(),
                 chess_piece=str(payload.get("chess_piece", "")).strip().lower(),
+                locked=str(payload.get("locked", "")).strip().upper(),
+                security=str(payload.get("security", "")).strip().upper(),
             )
             log.upsert(room)
+            if add_room_name(room.room):
+                print(f"new room name recorded: {room.room}")
             print(f"saved: day {day} {column}{row} = {room.room or '(unnamed)'}")
         log.save()
         self._send_json(build_state(day))
@@ -163,13 +153,12 @@ PAGE = r"""<!doctype html>
   header input { width: 60px; padding: 4px 6px; border: none; border-radius: 4px; }
   header .hint { color: #b9c6e0; }
   header button { padding: 5px 12px; border: none; border-radius: 5px; cursor: pointer; background: #f0a500; color: #1a2233; font-weight: 600; }
-  main { display: flex; gap: 24px; padding: 20px; align-items: flex-start; flex-wrap: wrap; }
+  main { display: flex; gap: 24px; padding: 20px; align-items: flex-start; }
   .hint { color: #6b7488; font-size: 12px; }
   table.grid { border-collapse: separate; border-spacing: 4px; }
   table.grid th { color: #6b7488; font-weight: 600; width: 34px; text-align: center; }
-  button.cell { position: relative; width: 34px; height: 34px; border: 1px solid #c3cad8; background: #fff; border-radius: 6px; font: 600 14px monospace; cursor: pointer; color: #1a2233; }
+  button.cell { position: relative; width: 34px; height: 34px; border: 1px solid #c3cad8; background: #fff; border-radius: 6px; font: 600 11px monospace; cursor: pointer; color: #1a2233; padding: 0; }
   button.cell.filled { background: #dbe7ff; border-color: #9db8ee; }
-  button.cell.known { color: #b0b8c8; font-weight: 500; }  /* guaranteed letter, not yet drafted this day */
   button.cell.sel { outline: 3px solid #f0a500; }
   button.cell:hover { border-color: #25406b; }
   .doormark { position: absolute; background: #b7bfce; border-radius: 2px; pointer-events: none; }
@@ -180,6 +169,8 @@ PAGE = r"""<!doctype html>
   .doormark.st-connected { background: #2f9d57; }
   .doormark.st-blocked { background: #d64545; }
   .doormark.st-open { background: #e0a63a; }
+  .doormark.lk-locked { background: #8a4fd0; }
+  .doormark.lk-security { background: #3552c4; }
   .doormark.dm-entry { outline: 2px solid #25406b; }
   .maplegend { margin-top: 6px; }
   .mm { display: inline-block; width: 14px; height: 6px; border-radius: 2px; vertical-align: middle; margin: 0 4px 0 12px; }
@@ -187,18 +178,19 @@ PAGE = r"""<!doctype html>
   .mm.st-connected { background: #2f9d57; }
   .mm.st-blocked { background: #d64545; }
   .mm.st-open { background: #e0a63a; }
+  .mm.lk-locked { background: #8a4fd0; }
+  .mm.lk-security { background: #3552c4; }
   .outerbox { display: flex; align-items: center; gap: 10px; margin-top: 16px; }
   .outerlabel { color: #6b7488; font-size: 12px; font-weight: 600; }
   .ocellwrap { display: inline-flex; flex-direction: column; align-items: center; gap: 4px; }
   .olabel { font: 600 10px monospace; color: #6b7488; }
-  #formPane { background: #fff; border: 1px solid #d5dbe6; border-radius: 10px; padding: 18px; min-width: 340px; }
+  #formPane { background: #fff; border: 1px solid #d5dbe6; border-radius: 10px; padding: 18px; width: 340px; flex: 0 0 340px; }
   #formPane h2 { font-size: 15px; margin: 0 0 12px; }
   #formPane label { display: block; margin: 10px 0; font-size: 13px; color: #48506a; }
   #formPane input[type=text] { width: 100%; padding: 6px 8px; border: 1px solid #c3cad8; border-radius: 6px; font: 14px system-ui; margin-top: 3px; }
-  #letter { width: 60px; }
-  input.prefilled { background: #fffbe6; }
+  #room.unknown { background: #fff3d6; border-color: #e0a63a; }
   .chessrow select.prefilled { background: #fffbe6; }
-  #prefillNote:not(:empty), #chessNote:not(:empty) { color: #9a7b1a; margin: 8px 0; }
+  #chessNote:not(:empty) { color: #9a7b1a; margin: 8px 0; }
   .doorwrap { margin: 16px 0; }
   .chesswrap { margin: 16px 0; }
   .chessrow { display: flex; gap: 8px; margin-top: 6px; }
@@ -211,6 +203,10 @@ PAGE = r"""<!doctype html>
   button.door.st-exit { background: #dbe7ff; border-color: #4f7ae0; color: #1e3a86; }
   button.door.st-entry { background: #c9f0d4; border-color: #2f9d57; color: #166534; box-shadow: inset 0 0 0 2px #2f9d57; }
   button.door.st-entry::after { content: "in"; position: absolute; top: 1px; right: 3px; font: 700 9px system-ui; color: #2f9d57; }
+  button.door.lk-locked::before { content: "🔒"; position: absolute; top: 1px; left: 2px; font-size: 10px; }
+  button.door.lk-security::before { content: "🛡"; position: absolute; top: 1px; left: 2px; font-size: 10px; }
+  .swatch.lk-locked { background: #8a4fd0; border-color: #8a4fd0; }
+  .swatch.lk-security { background: #3552c4; border-color: #3552c4; }
   .legend { margin-top: 8px; }
   .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: middle; margin: 0 3px 0 12px; border: 1px solid #c3cad8; }
   .swatch:first-child { margin-left: 0; }
@@ -240,7 +236,6 @@ PAGE = r"""<!doctype html>
   <h1>Blue Prince — room log</h1>
   <label style="color:#fff">Day <input id="day" type="number" min="1" value="14"></label>
   <button id="load">Load</button>
-  <span id="daysHint" class="hint"></span>
 </header>
 <main>
   <section>
@@ -250,28 +245,28 @@ PAGE = r"""<!doctype html>
       <span class="mm st-connected"></span>connected
       <span class="mm st-blocked"></span>blocked (no door back)
       <span class="mm st-open"></span>open (empty next door)
+      <span class="mm lk-locked"></span>locked
+      <span class="mm lk-security"></span>security
     </div>
     <div id="chessChecklist" class="checklist"></div>
   </section>
   <section id="formPane">
     <h2 id="cellTitle">No cell selected</h2>
     <label>Room name
-      <input id="room" type="text" placeholder="entrance-hall" autocomplete="off">
+      <input id="room" type="text" placeholder="entrance-hall" autocomplete="off" list="roomNames">
+      <datalist id="roomNames"></datalist>
+      <span class="hint" id="roomHint"></span>
     </label>
     <div class="doorwrap">
-      <div class="clabel">Doors &middot; click a side: off &rarr; exit &rarr; entrance</div>
+      <div class="clabel">Doors &middot; click a side: off &rarr; exit &rarr; entrance &middot; right-click: none &rarr; &#128274; locked &rarr; &#128737; security</div>
       <div class="compass" id="doors"></div>
       <div class="legend hint">
         <span class="swatch st-exit"></span>exit
         <span class="swatch st-entry"></span>entrance (max one)
+        <span class="swatch lk-locked"></span>locked
+        <span class="swatch lk-security"></span>security
       </div>
     </div>
-    <div id="prefillNote" class="hint"></div>
-    <label>Image 1 <input id="image1" type="text" autocomplete="off"></label>
-    <label>Image 2 <input id="image2" type="text" autocomplete="off"></label>
-    <label>Letter <input id="letter" type="text" maxlength="6" autocomplete="off">
-      <span class="hint" id="letterHint"></span>
-    </label>
     <div class="chesswrap">
       <div class="clabel">Chess piece</div>
       <div class="chessrow">
@@ -305,29 +300,21 @@ const DIRS = ["N", "E", "S", "W"];
 const CHESS_PIECES = ["king", "queen", "rook", "bishop", "knight", "pawn"];
 const CHESS_COLOURS = ["white", "black"];
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const initials = n => (n || "").split(/[^a-z0-9]+/i).filter(Boolean)
+  .map(w => w[0]).join("").toUpperCase() || "·";
 const $ = id => document.getElementById(id);
 let state = null;
 let sel = null;                                  // {column, row}
 let doors = { N: "", E: "", S: "", W: "" };      // "" | "exit" | "entry"
-let letterAuto = true;                           // is the letter tracking the images?
+let locks = { N: "", E: "", S: "", W: "" };      // "" | "locked" | "security"
 let chessAuto = true;                            // is the chess piece tracking the room name?
-
-function derivedLetter(a, b) {
-  a = a || ""; b = b || "";
-  let [long, short] = a.length >= b.length ? [a, b] : [b, a];
-  if (!short || long.length - short.length !== 1) return "?";
-  for (let i = 0; i < long.length; i++) {
-    if (long.slice(0, i) + long.slice(i + 1) === short) return long[i];
-  }
-  return "?";
-}
 
 async function load(day) {
   const url = "/api/state" + (day != null ? "?day=" + day : "");
   state = await (await fetch(url)).json();
   $("day").value = state.day;
-  $("daysHint").textContent = state.days.length
-    ? "days logged: " + state.days.join(", ") : "no rooms yet";
+  $("roomNames").innerHTML = (state.room_names || [])
+    .map(n => `<option value="${n}">`).join("");
   renderGrid();
   if (sel) selectCell(sel.column, sel.row);
 }
@@ -338,20 +325,18 @@ function roomAt(col, row) {
 
 function cellButton(col, row) {
   const r = roomAt(col, row);
-  // empty cell: show the guaranteed letter (from other days) faded, if known
-  const hint = (!r && state.hints) ? state.hints[col + "," + row] : null;
-  const known = hint && hint.letter ? hint.letter : "";
   const cls = ["cell"];
   if (r) cls.push("filled");
-  else if (known) cls.push("known");
   if (sel && sel.column === col && sel.row === row) cls.push("sel");
-  const mark = r ? (r.letter || "·") : known;
-  const title = r ? r.room : (known ? `known letter: ${known}` : "");
+  const mark = r ? initials(r.room) : "";
+  const title = r ? r.room : "";
   let doorHtml = "";
   if (r && r.door_status) {
     for (const [d, st] of Object.entries(r.door_status)) {
       const entryCls = d === r.entry ? " dm-entry" : "";
-      doorHtml += `<span class="doormark dm-${d} st-${st}${entryCls}"></span>`;
+      const lockCls = (r.security || "").includes(d) ? " lk-security"
+                    : (r.locked || "").includes(d) ? " lk-locked" : "";
+      doorHtml += `<span class="doormark dm-${d} st-${st}${entryCls}${lockCls}"></span>`;
     }
   }
   return `<button class="${cls.join(" ")}" data-col="${col}" data-row="${row}" title="${title}">${mark}${doorHtml}</button>`;
@@ -447,6 +432,7 @@ function buildCompass() {
     btn.dataset.dir = d;
     btn.style.gridArea = area[d];
     btn.onclick = () => cycleDoor(d);
+    btn.oncontextmenu = e => { e.preventDefault(); cycleLock(d); };
     el.appendChild(btn);
   }
 }
@@ -458,6 +444,14 @@ function cycleDoor(d) {
     for (const k of DIRS) if (doors[k] === "entry") doors[k] = "exit";
   }
   doors[d] = next;
+  if (next === "") locks[d] = "";  // no door, nothing to lock
+  refreshDoors();
+  updateSummary();
+}
+
+function cycleLock(d) {
+  if (doors[d] === "") doors[d] = "exit";  // a locked door is still a door
+  locks[d] = { "": "locked", "locked": "security", "security": "" }[locks[d]];
   refreshDoors();
   updateSummary();
 }
@@ -467,28 +461,28 @@ function refreshDoors() {
     const s = doors[b.dataset.dir];
     b.classList.toggle("st-exit", s === "exit");
     b.classList.toggle("st-entry", s === "entry");
+    b.classList.toggle("lk-locked", locks[b.dataset.dir] === "locked");
+    b.classList.toggle("lk-security", locks[b.dataset.dir] === "security");
   });
 }
 
 function setDoorsFromRoom(r) {
   const exits = new Set(r ? (r.exits || "").split("").filter(Boolean) : []);
   const entry = r ? (r.entry || "") : "";
+  const locked = r ? (r.locked || "") : "";
+  const security = r ? (r.security || "") : "";
   for (const d of DIRS) {
     doors[d] = d === entry ? "entry" : (exits.has(d) ? "exit" : "");
+    locks[d] = security.includes(d) ? "security" : (locked.includes(d) ? "locked" : "");
   }
 }
 
 function selectCell(col, row) {
   sel = { column: col, row: row };
   const r = roomAt(col, row);
-  // empty cell? prefill images + letter from a previous day (they're position-based)
-  const hint = (!r && state.hints) ? state.hints[col + "," + row] : null;
-  const src = r || hint || {};
 
   $("cellTitle").textContent = `Cell ${col}${row}` + (r ? ` — ${r.room}` : " (empty)");
   $("room").value = r ? r.room : "";
-  $("image1").value = src.image1 || "";
-  $("image2").value = src.image2 || "";
   // Chess is keyed by room NAME (a room always holds the same piece). Use the
   // stored value when this cell already recorded one, else prefill from the name.
   if (r && (r.chess_piece || r.chess_colour)) {
@@ -503,24 +497,23 @@ function selectCell(col, row) {
   }
   setDoorsFromRoom(r);   // doors are room-specific, never prefilled
 
-  const auto = derivedLetter($("image1").value, $("image2").value);
-  const stored = (r ? r.letter : (hint ? hint.letter : "")) || "";
-  $("letter").value = stored || auto;
-  letterAuto = !stored || stored === auto;
-
-  $("prefillNote").textContent = hint ? `Prefilled from day ${hint.day}` : "";
-  for (const id of ["image1", "image2", "letter"]) $(id).classList.toggle("prefilled", !!hint);
-
-  updateLetterHint();
+  updateRoomHint();
   refreshDoors();
   updateSummary();
   renderGrid();
   $("status").textContent = "";
 }
 
-function updateLetterHint() {
-  const auto = derivedLetter($("image1").value, $("image2").value);
-  $("letterHint").textContent = letterAuto ? "auto from images" : `manual (auto = ${auto})`;
+function knownRoom(name) {
+  return !!(state && state.room_names && state.room_names.includes(name));
+}
+
+// Amber-flag the room field while the name doesn't match the known-rooms list.
+function updateRoomHint() {
+  const name = $("room").value.trim();
+  const unknown = !!name && !knownRoom(name);
+  $("room").classList.toggle("unknown", unknown);
+  $("roomHint").textContent = unknown ? "not in room list — new room or typo?" : "";
 }
 
 function chessForRoom(name) {
@@ -546,8 +539,11 @@ function applyChessPrefill() {
 function updateSummary() {
   const exits = DIRS.filter(d => doors[d] !== "").join("");
   const entry = DIRS.find(d => doors[d] === "entry") || "";
+  const locked = DIRS.filter(d => locks[d] === "locked").join("");
+  const security = DIRS.filter(d => locks[d] === "security").join("");
   $("summary").textContent =
-    `entrance: ${entry || "—"}\ndoors:    ${exits || "—"}\nletter:   ${$("letter").value || "—"}`;
+    `entrance: ${entry || "—"}\ndoors:    ${exits || "—"}` +
+    `\nlocked:   ${locked || "—"}\nsecurity: ${security || "—"}`;
 }
 
 async function post(body) {
@@ -565,17 +561,10 @@ function setStatus(msg, ok = true) {
   el.style.color = ok ? "#166534" : "#b23";
 }
 
-$("image1").oninput = $("image2").oninput = () => {
-  if (letterAuto) $("letter").value = derivedLetter($("image1").value, $("image2").value);
-  updateLetterHint();
-  updateSummary();
+$("room").oninput = () => {                      // chess follows the room name until edited
+  applyChessPrefill();
+  updateRoomHint();
 };
-$("letter").oninput = () => {
-  letterAuto = $("letter").value === derivedLetter($("image1").value, $("image2").value);
-  updateLetterHint();
-  updateSummary();
-};
-$("room").oninput = () => applyChessPrefill();   // chess follows the room name until edited
 $("chessColour").onchange = $("chessPiece").onchange = () => {
   chessAuto = false;                             // user took over — stop auto-tracking
   markChessPrefilled(false);
@@ -586,6 +575,10 @@ $("save").onclick = async () => {
   if (!sel) return setStatus("Pick a cell first", false);
   const room = $("room").value.trim();
   if (!room) return setStatus("Room name required", false);
+  if (!knownRoom(room) &&
+      !confirm(`"${room}" isn't in the room list.\nSave it as a new room name?`)) {
+    return setStatus("Not saved — check the name", false);
+  }
   const data = await post({
     day: parseInt($("day").value),
     column: sel.column,
@@ -593,9 +586,8 @@ $("save").onclick = async () => {
     room,
     entry: DIRS.find(d => doors[d] === "entry") || "",
     exits: DIRS.filter(d => doors[d] !== "").join(""),
-    image1: $("image1").value.trim(),
-    image2: $("image2").value.trim(),
-    letter: $("letter").value.trim(),
+    locked: DIRS.filter(d => locks[d] === "locked").join(""),
+    security: DIRS.filter(d => locks[d] === "security").join(""),
     chess_colour: $("chessColour").value,
     chess_piece: $("chessPiece").value,
   });

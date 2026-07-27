@@ -31,6 +31,26 @@ OPPOSITE = {"N": "S", "S": "N", "E": "W", "W": "E"}
 _STEP = {"N": (1, 0), "S": (-1, 0), "E": (0, 1), "W": (0, -1)}  # (row delta, column-index delta)
 
 DEFAULT_LOG = Path(__file__).with_name("log.csv")
+ROOM_NAMES_FILE = Path(__file__).with_name("room-names.txt")
+
+
+def load_room_names(path: str | Path = ROOM_NAMES_FILE) -> list[str]:
+    """The known room names, sorted. Missing file just means no names yet."""
+    path = Path(path)
+    if not path.exists():
+        return []
+    return sorted({line.strip() for line in path.read_text().splitlines() if line.strip()})
+
+
+def add_room_name(name: str, path: str | Path = ROOM_NAMES_FILE) -> bool:
+    """Record a room name if it's new. Returns True when the file changed."""
+    name = name.strip()
+    names = set(load_room_names(path))
+    if not name or name in names:
+        return False
+    names.add(name)
+    Path(path).write_text("\n".join(sorted(names)) + "\n")
+    return True
 
 
 @dataclass(frozen=True)
@@ -48,6 +68,8 @@ class Room:
     letter: str = ""
     chess_colour: str = ""  # "", "white" or "black"
     chess_piece: str = ""   # "", "pawn", "knight", "bishop", "rook", "queen" or "king"
+    locked: str = ""        # directions whose door was locked (key), e.g. "NE"
+    security: str = ""      # directions whose door was a security door (keycard)
 
     @property
     def position(self) -> tuple[int, str]:
@@ -58,6 +80,16 @@ class Room:
     def doors(self) -> set[str]:
         """The directions this room has a door on (parsed from ``exits``)."""
         return {c for c in self.exits.upper() if c in OPPOSITE}
+
+    @property
+    def locked_doors(self) -> set[str]:
+        """The directions whose door was locked (parsed from ``locked``)."""
+        return {c for c in self.locked.upper() if c in OPPOSITE}
+
+    @property
+    def security_doors(self) -> set[str]:
+        """The directions whose door was a security door (parsed from ``security``)."""
+        return {c for c in self.security.upper() if c in OPPOSITE}
 
     @property
     def derived_letter(self) -> str | None:
@@ -91,6 +123,8 @@ class Room:
             letter=clean.get("letter", ""),
             chess_colour=clean.get("chess_colour", ""),
             chess_piece=clean.get("chess_piece", ""),
+            locked=clean.get("locked", ""),
+            security=clean.get("security", ""),
         )
 
     def to_row(self) -> dict[str, object]:

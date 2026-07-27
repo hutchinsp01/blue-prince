@@ -157,7 +157,7 @@
 - goods in trunk
 - Denny already has payment?
 
-# Gemstone Caern
+# Gemstone Cavern
 - Two other ways in
 - Stuck cart
 - Second blue flame
@@ -250,7 +250,7 @@
   - Fall of the lord - 0
   - Passing of the barons - 3
   - Herrings(hearings) of the Major - 0
-- Greenhouse antichamber broken (only west and east work)
+- Greenhouse antechamber broken (only west and east work)
 - Email
   - Hartley (Valet)
   - Fuse (off, blue, green, white, red, purple)
@@ -305,9 +305,9 @@
   - Baron sinclair (architect)
 
 # Secret Garden
-- Point both arrows at moon to unlock left antichamber door
+- Point both arrows at moon to unlock left antechamber door
 - Use power hammer to break wall
-  - Can point at East or West antichamber door
+  - Can point at East or West antechamber door
   - South shows a Sigil
     - Core - Orinda
     - Border - Black
@@ -392,7 +392,7 @@
     - More locked doors north
 - Terminals
   - Password: SWANSONG
-  - Terminal rooms: Security, Office, Laborotory, Shelter
+  - Terminal rooms: Security, Office, Laboratory, Shelter
 - Rooms have the same images if drafted in the same place
 - June 15th, 1983
   - Lady Clara Espen Death
