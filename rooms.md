@@ -45,6 +45,17 @@
 
 
 # Blackbridge Grotto
+- Logins
+  - MoorR (Admin) Randolph Moore
+  - ThomK (Admin) - K Thom?
+  - BabbA (Personnel Access) - Anne Babbage
+  - RuotH - Expired
+  - RevaD - Experied (Denny revane)
+- Admins Log
+  - Recording capabiltiies of all cameras has been disabled? - 02-10-87
+  - Lots of deleted logs
+  - New Admin key created that doesn't match the typical pattern???
+- Need to find an Archive Acess to view deleted logs
 - Microchip Object?
 - 1 100 (binary?) - 1 4
 
@@ -66,6 +77,10 @@
   - 7 months before she went missing
   - coincides with ruby crown thefta
   - From courtney
+- Emails
+  - 22/02/1987 - Randolph - Working to get more supplies
+  - 25/02/1987 - Randolph - Idea for long term solution that may involve a boat ride
+  - 28/02/1987 - Randolph - RedGuard coming tomorrow to investigate dissapearance - Too risky to move
 
 # Catacombs
 - Not much down there - Part of the underground map
@@ -87,6 +102,8 @@
   - Water, Ice, Steam (hint at laboratory)
 - Grade 4
   - Maps?? Have screenshots
+- Grade 5
+  - Art class - Draw two things where one is missing a letter
 
 # Cloister
 - Switches at bottom of pillar facing statue
@@ -187,6 +204,10 @@
   - Unlocks Blackbridge grotto
 - Periodic Table
   - PUSH THREE UP AFTER NINE
+- Emails
+  - H.S.Sinclair - 31/08/1987 - LOCK IT ALL DOWN
+  - H.S.Sinclair - 27/08/1987 - Lock down computer in blackbridge grotto due to Redguard investigation
+ - Chef - 05/04/1987 - To heat freezer draft furnance nearby
 
 # Library
 - Books read
@@ -202,7 +223,6 @@
   - Swim Bird
     - Names
       - Hebert of Sinclair?
-      - Mrs PEterson
       - Mrs peterson
       - SIMON
       - Mrs Peterson
@@ -211,6 +231,12 @@
       - Simon P Jones
   - The Fixed Stars
   - EPCW Pump
+  - The Curse of The Black Bridge
+    - Jesper - Boy with dead parents and brother
+      - Berry Picker??
+      - Curse that he only has 12 more steps?
+    - Miller & Ravia - Protecting a bridge
+      - BlackGuard? Different to RedGuard?
   - Drafting Strategy Vol 3
     - Names
       - Kimberly Thompson
@@ -223,6 +249,9 @@
     - Eraja
     - King Desilets III
     - War of fifth era
+  - Realm & Rune
+    - Same as book in the mines with pages ripped out
+    - Not sure what this information is useful for yet
 
 # Maid's Chambers
 - Angel statue holding broom called MILA
@@ -315,7 +344,19 @@
     - Moats - Metropolitan x5
     - Weather? - Fog
 
+# Security
+- Emails
+  - Randolph Moore - 10/02/1987 - Stop the cameras recording
+  - Kirk Darren - 24/01/1987 - South Lever in weight room - concealed
+
 # Servants Quarters
+- Green Note - There are Twelve Major Keys
+- Hartley let go after 40 years
+  - Given Lake House in Trinsdale
+- Note in Bin
+  - To Mr Ruota - RuotF - Deactivated
+  - From Randolph Moore - IT person? also sorted out some experiments in the Laboratory
+  - Temporary Admin Key - First 4 letters of last name followed by first initial, 1st and fith capitalized
 
 # Shelter
 - Has a time-lock safe
@@ -324,14 +365,15 @@
 - Need to figure out what day it is for timelock
 
 # Shrine
-- 10 coins - Blessing of the General
+- 10 coins - Blessing of the General - Something red rooms
+- 5 Coins - Blessing of the Gardener - Add 8 courtyards
 
 # Solarium
 - Note on how to open Cloister
 
 # Study
 - Has a safe
-- Black king on D8
+- Black Queen on D8
 - Unused pairings
   - Glove, sLing, crowD, gRown, sNack
 
@@ -361,10 +403,19 @@
   - Blackmail letter?
 - Theres a little castle underground - kinda cute
 
+## Reservoir
+- Brown Box - The Pink Boxes do not contain any prizes
+- White Box (Wavy Coffee Bean Symbol) -  GREEN - A prize is in a box marked by Wavy Coffee bean looking symbol
+- Brown Box (Wavy Coffee Bean Symbol) - RED - The sanctum Key is in a blue box
+
 # Utility Closet
 - Set these vac lights
   - Fuse (off, blue, green, white, red, purple)
 - Opens outside to show gemstone cavern
+
+# Vault
+- Box 149
+  - Diplomatic Passport for Samantha Hayes - Is just Mary Epsen??
 
 # Workshop
 - Letters - LCEMGMGILE (I'm pretty sure these are just the painting letters)

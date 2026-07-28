@@ -189,6 +189,14 @@ PAGE = r"""<!doctype html>
   #formPane label { display: block; margin: 10px 0; font-size: 13px; color: #48506a; }
   #formPane input[type=text] { width: 100%; padding: 6px 8px; border: 1px solid #c3cad8; border-radius: 6px; font: 14px system-ui; margin-top: 3px; }
   #room.unknown { background: #fff3d6; border-color: #e0a63a; }
+  .suggestwrap { position: relative; display: block; }
+  .suggest { position: absolute; top: 100%; left: 0; right: 0; z-index: 10; display: none;
+             background: #fff; border: 1px solid #c3cad8; border-radius: 6px; margin-top: 2px;
+             max-height: 220px; overflow-y: auto; box-shadow: 0 4px 12px rgba(26, 34, 51, .15); }
+  .suggest.open { display: block; }
+  .suggest .opt { padding: 5px 9px; cursor: pointer; font-size: 13px; }
+  .suggest .opt.hi { background: #dbe7ff; }
+  .suggest .opt b { color: #25406b; }
   .chessrow select.prefilled { background: #fffbe6; }
   #chessNote:not(:empty) { color: #9a7b1a; margin: 8px 0; }
   .doorwrap { margin: 16px 0; }
@@ -253,8 +261,10 @@ PAGE = r"""<!doctype html>
   <section id="formPane">
     <h2 id="cellTitle">No cell selected</h2>
     <label>Room name
-      <input id="room" type="text" placeholder="entrance-hall" autocomplete="off" list="roomNames">
-      <datalist id="roomNames"></datalist>
+      <span class="suggestwrap">
+        <input id="room" type="text" placeholder="entrance-hall" autocomplete="off">
+        <div id="roomSuggest" class="suggest"></div>
+      </span>
       <span class="hint" id="roomHint"></span>
     </label>
     <div class="doorwrap">
@@ -300,6 +310,8 @@ const DIRS = ["N", "E", "S", "W"];
 const CHESS_PIECES = ["king", "queen", "rook", "bishop", "knight", "pawn"];
 const CHESS_COLOURS = ["white", "black"];
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const esc = s => s.replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const initials = n => (n || "").split(/[^a-z0-9]+/i).filter(Boolean)
   .map(w => w[0]).join("").toUpperCase() || "·";
 const $ = id => document.getElementById(id);
@@ -313,8 +325,6 @@ async function load(day) {
   const url = "/api/state" + (day != null ? "?day=" + day : "");
   state = await (await fetch(url)).json();
   $("day").value = state.day;
-  $("roomNames").innerHTML = (state.room_names || [])
-    .map(n => `<option value="${n}">`).join("");
   renderGrid();
   if (sel) selectCell(sel.column, sel.row);
 }
@@ -508,6 +518,74 @@ function knownRoom(name) {
   return !!(state && state.room_names && state.room_names.includes(name));
 }
 
+// --- room-name autocomplete: the list narrows as you type ---
+let sugIndex = -1;  // highlighted option, -1 = none
+
+function roomMatches(q) {
+  const names = (state && state.room_names) || [];
+  q = q.trim().toLowerCase();
+  if (!q) return names;
+  const starts = [], contains = [];
+  for (const n of names) {
+    const i = n.toLowerCase().indexOf(q);
+    if (i === 0) starts.push(n);
+    else if (i > 0) contains.push(n);
+  }
+  return starts.concat(contains);
+}
+
+function renderSuggest() {
+  const el = $("roomSuggest");
+  const q = $("room").value.trim().toLowerCase();
+  const names = roomMatches(q);
+  if (!names.length) return closeSuggest();
+  el.innerHTML = names.map((n, i) => {
+    const at = q ? n.toLowerCase().indexOf(q) : -1;
+    const label = at < 0 ? esc(n)
+      : esc(n.slice(0, at)) + "<b>" + esc(n.slice(at, at + q.length)) + "</b>" + esc(n.slice(at + q.length));
+    return `<div class="opt${i === sugIndex ? " hi" : ""}" data-name="${esc(n)}">${label}</div>`;
+  }).join("");
+  el.classList.add("open");
+  el.querySelectorAll(".opt").forEach(o => {
+    o.onmousedown = e => { e.preventDefault(); pickSuggest(o.dataset.name); };
+  });
+  const hi = el.querySelector(".opt.hi");
+  if (hi) hi.scrollIntoView({ block: "nearest" });
+}
+
+function closeSuggest() {
+  sugIndex = -1;
+  $("roomSuggest").classList.remove("open");
+}
+
+function pickSuggest(name) {
+  $("room").value = name;
+  closeSuggest();
+  applyChessPrefill();
+  updateRoomHint();
+}
+
+$("room").onfocus = () => { sugIndex = -1; renderSuggest(); };
+$("room").onblur = () => closeSuggest();
+$("room").onkeydown = e => {
+  const open = $("roomSuggest").classList.contains("open");
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    if (!open) return renderSuggest();
+    const count = $("roomSuggest").querySelectorAll(".opt").length;
+    sugIndex = e.key === "ArrowDown"
+      ? (sugIndex + 1) % count
+      : (sugIndex - 1 + count) % count;
+    renderSuggest();
+  } else if (e.key === "Enter" && open && sugIndex >= 0) {
+    e.preventDefault();
+    const hi = $("roomSuggest").querySelector(".opt.hi");
+    if (hi) pickSuggest(hi.dataset.name);
+  } else if (e.key === "Escape") {
+    closeSuggest();
+  }
+};
+
 // Amber-flag the room field while the name doesn't match the known-rooms list.
 function updateRoomHint() {
   const name = $("room").value.trim();
@@ -564,6 +642,8 @@ function setStatus(msg, ok = true) {
 $("room").oninput = () => {                      // chess follows the room name until edited
   applyChessPrefill();
   updateRoomHint();
+  sugIndex = -1;                                 // typing re-narrows the list
+  renderSuggest();
 };
 $("chessColour").onchange = $("chessPiece").onchange = () => {
   chessAuto = false;                             // user took over — stop auto-tracking
