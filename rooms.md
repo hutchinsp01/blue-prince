@@ -28,6 +28,8 @@
 # Archive
 - Insurgent group RLCF
 - Marion Mary Marigold went missing at 3:45pm Friday
+- Mary Epsen birth certificate
+  - 4:05am Tuesday 22/01/1958
 
 # Ballroom
 - Music sheets
@@ -403,10 +405,10 @@
   - Blackmail letter?
 - Theres a little castle underground - kinda cute
 
-## Reservoir
-- Brown Box - The Pink Boxes do not contain any prizes
-- White Box (Wavy Coffee Bean Symbol) -  GREEN - A prize is in a box marked by Wavy Coffee bean looking symbol
-- Brown Box (Wavy Coffee Bean Symbol) - RED - The sanctum Key is in a blue box
+## Inner Sanctum
+- Unlocked
+  - Hour glass region
+
 
 # Utility Closet
 - Set these vac lights

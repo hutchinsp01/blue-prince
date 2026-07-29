@@ -21,6 +21,9 @@
 - 1213 - MCCXIII
 - 1952
 
+- Mary Epsen birth certificate
+  - 4:05am Tuesday 22/01/1958
+
 # 5 digit
 - 62033
 - 03080

@@ -82,6 +82,7 @@ shrine
 solarium
 spare-bedroom
 spare-room
+starfish-aquarium
 storeroom
 study
 terrace
