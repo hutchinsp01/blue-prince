@@ -15,6 +15,7 @@ chamber-of-mirrors
 chapel
 classroom
 cloister
+cloister-of-mila
 closet
 coat-check
 commissary
@@ -51,6 +52,7 @@ lavatory
 library
 locker-room
 locksmith
+lost-and-found
 maids-chambers
 mail-room
 master-bedroom
@@ -68,6 +70,7 @@ patio
 planetarium
 pool
 pump-room
+room-8
 root-cellar
 rotunda
 rumpus-room

@@ -143,6 +143,7 @@
 
 # Drafting Studio
 - calendar with wall and apple orchard (Sat 7th Novemeber - Day one)    
+- Has a very detailed model of the safe in the study?
 
 # Drawing Room
 - All the photos have something to do with step length?
@@ -301,10 +302,22 @@
 - Contains dynamite
 - has some purple and yellow square puzzle I fucked up (edit: unlocked it and got an allowance)
 
+# Room 8
+- Didn't have a sanctum key?
+
 # Room 46
 - Lots of busts of different people
 - Map of the world with 8 pins - Need to know the order of something? - Probably from the book
 - Marigold statue missing
+- Sanctum Keys
+  - The first key found here on the furthest rank - FOUND
+  - The second key locked tigth in the vault of a bank - Vault
+  - The third is high up, among all the clocks - Need to add clocktower
+  - And the fourth down below, beneath all the docks - FOUND
+  - The fifth key is held by a king on his throne - Lavatory?
+  - The sixth in a station, left by one of your own - cloak room?
+  - The seventh is major if you draft it quite late - FOUND
+  - The last key is waiting, behind the last door of 8
 
 
 # Root Cellar
@@ -378,6 +391,7 @@
 - Black Queen on D8
 - Unused pairings
   - Glove, sLing, crowD, gRown, sNack
+  - GLDRN
 
 # Tomb
 - Herbert of Sinclair DEAD
@@ -408,6 +422,8 @@
 ## Inner Sanctum
 - Unlocked
   - Hour glass region
+  - Heart region
+  - Semi circle region
 
 
 # Utility Closet
@@ -433,7 +449,8 @@
 
 # Gallery
 - 4 artworks - I assume I have to figure out their names?
-- THICK
+- SOLVED - names are all thinking words: 5 THINK, 6 PONDER, 7 REALIZE, 8 RUMINATE
+
 
 # General (house-wide)
 - Memos
@@ -465,4 +482,5 @@
   - No idea
 - Safe deposit Box - Key 304
   - No idea
+- Safe deposit Box - Key 370
 
