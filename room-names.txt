@@ -90,6 +90,7 @@ storeroom
 study
 terrace
 the-foundation
+the-kennel
 tomb
 tool-shed
 trading-post

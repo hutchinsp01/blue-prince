@@ -72,6 +72,7 @@
 - safe code - 2412
 - Red Note - 4
   - Hebert, hid details of marions dissapearance, from Daniel
+- On christmas, had christmas presents lol
 
 # Bunker
 - Red note VII
@@ -106,6 +107,15 @@
   - Maps?? Have screenshots
 - Grade 5
   - Art class - Draw two things where one is missing a letter
+- Grade 6
+  - History - BBACBC
+- Grade 7 
+  - Algebra
+  - Single squiggle - round to nearest number
+  - Double Squiggle - round to nearest 10
+  - Triple squiggle - round to nearest 100
+- Grade 8
+  - Language, how to translate xxx
 
 # Cloister
 - Switches at bottom of pillar facing statue
@@ -152,6 +162,7 @@
 # Foundation
 - Back of foundation has a lever you can spin to move lift
 - Goes down to basement - Need basement key
+- Doesn't count as a room for The Kennel? Door didn't unlock when I dug
 
 # Foyer
 - People
@@ -298,6 +309,9 @@
 - Draining Pool just reveals coins
 - Draining Fountain gives 2nd entrance to Basement
 
+# The Kennel
+- Note with a CAT written in cubes - CA(CAT)T - Nursery cubes?
+
 # Trading Post
 - Contains dynamite
 - has some purple and yellow square puzzle I fucked up (edit: unlocked it and got an allowance)
@@ -338,6 +352,9 @@
 - 3rd
 - missing item in entrance hall - A bird statue??
 - young boy watched from afar
+- 4th
+- Children running in forest
+- Everyone has their own secrets, but all in the same chair - The one in the drawing room
 
 # Schoolhouse
 - Has tap for the wierd yellow pipes outside, lights a blue flame on the lookout (STAYS ON)

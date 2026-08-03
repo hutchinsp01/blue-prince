@@ -6,6 +6,10 @@
 - Power Hammer the wall in the weight room
 - Get to 50 stars - New constellation
 
+# Rooms
+- Add ClockTower - for sanctum key
+- Add extra classroom - to take final exam
+
 # Sanctum keys
 - The second key locked tigth in the vault of a bank - Vault
 - The third is high up, among all the clocks - Need to add clocktower
