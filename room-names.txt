@@ -8,6 +8,7 @@ billiard-room
 boiler-room
 bookshop
 boudoir
+break-room
 bunk-room
 bunker
 casino
@@ -89,11 +90,13 @@ starfish-aquarium
 storeroom
 study
 terrace
+the-armory
 the-foundation
 the-kennel
 tomb
 tool-shed
 trading-post
+treasure-trove
 trophy-room
 utility-closet
 vault

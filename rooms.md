@@ -25,9 +25,10 @@
 - X marks the spot under the bbq in patio
 - Arrow pointing at filing cabinet in archive
 
-# Archive
+# Archives
 - Insurgent group RLCF
 - Marion Mary Marigold went missing at 3:45pm Friday
+  - Wearing swan necklace (is that normal for mary?)
 - Mary Epsen birth certificate
   - 4:05am Tuesday 22/01/1958
 
@@ -54,6 +55,7 @@
   - RuotH - Expired
   - RevaD - Experied (Denny revane)
 - Admins Log
+  - 07-25-87 - New Admin key that doesn't fit typical length formatting (someone with short surname)
   - Recording capabiltiies of all cameras has been disabled? - 02-10-87
   - Lots of deleted logs
   - New Admin key created that doesn't match the typical pattern???
@@ -314,7 +316,17 @@
 
 # Trading Post
 - Contains dynamite
+  - Note From Denny
+    - Christoph here is your 40 gold from the moonshine shipment
+    - Asked Christoph to Delay the baron's trip to down by an hour or so
 - has some purple and yellow square puzzle I fucked up (edit: unlocked it and got an allowance)
+
+# Treasure Trove
+- Green Memo - ____ Box -  you find in this room will always be true
+- Blue Memo - Blue Box - Green Memos in white boxes are always lies
+- Green Memo - Blue Box - The True Treasure of the trove is not in the house
+- Red Memo - White Box - The previous box in this room contained a true statement
+- Green Memo - White Box - Two Realms have the same colour banner
 
 # Room 8
 - Didn't have a sanctum key?
@@ -332,6 +344,8 @@
   - The sixth in a station, left by one of your own - cloak room?
   - The seventh is major if you draft it quite late - FOUND
   - The last key is waiting, behind the last door of 8
+- In drawer
+  - The secret room is not as secure as you thought. We have your letters. 8 letters 8 payments 100 gold instructions to follow
 
 
 # Root Cellar
@@ -398,7 +412,9 @@
 
 # Shrine
 - 10 coins - Blessing of the General - Something red rooms
+- 7 coins - Blessing of the chef - extra food 
 - 5 Coins - Blessing of the Gardener - Add 8 courtyards
+- Dont open the box, you'll get cursed lol
 
 # Solarium
 - Note on how to open Cloister
@@ -406,6 +422,8 @@
 # Study
 - Has a safe
 - Black Queen on D8
+- Arrow on side of book case?
+- Globe has dotted lines on - Perhaps for travel?
 - Unused pairings
   - Glove, sLing, crowD, gRown, sNack
   - GLDRN
@@ -451,6 +469,10 @@
 # Vault
 - Box 149
   - Diplomatic Passport for Samantha Hayes - Is just Mary Epsen??
+- Box 233
+  - Diplomatic Passport for Grey Daniels - Comprimised - Mary Epsen
+- Box 304
+  - Diplomatic passport for Jean Ribbon
 
 # Workshop
 - Letters - LCEMGMGILE (I'm pretty sure these are just the painting letters)
@@ -493,10 +515,8 @@
   - Not sure 
 - Prism Key
   - Unlocks room of same colour
-- Safe Deposit Box - Key 149
-  - No idea
-- Safe Deposit Box - Key 233
-  - No idea
+- Safe Deposit Box - Key 149 - OPENED
+- Safe Deposit Box - Key 233 - OPENED
 - Safe deposit Box - Key 304
   - No idea
 - Safe deposit Box - Key 370
