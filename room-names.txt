@@ -1,10 +1,8 @@
 antechamber
-aquarium
 archives
 attic
 ballroom
 bedroom
-billiard-room
 boiler-room
 bookshop
 boudoir
@@ -15,9 +13,7 @@ casino
 chamber-of-mirrors
 chapel
 classroom
-cloister
 cloister-of-mila
-closet
 coat-check
 commissary
 conference-room
@@ -37,10 +33,10 @@ freezer
 furnace
 gallery
 garage
+geist-bedroom
 gift-shop
 great-hall
 greenhouse
-guest-bedroom
 gymnasium
 hallway
 hallway-closet
@@ -85,7 +81,6 @@ showroom
 shrine
 solarium
 spare-bedroom
-spare-room
 starfish-aquarium
 storeroom
 study

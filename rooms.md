@@ -284,8 +284,12 @@
 # Music Room
 - first words on the sheets are true message 9 10 (bold words)
 - find among the white trees under two stones 9 10 (first word on page)
-  - Found an observatory
+  - Found an conservatory
 - Denoted in verse?? cleff symbol??
+
+# Observatory
+- 50 stars - ink well
+  - Can spend stars to draw new floor plans
 
 # Office
 - Photo of Simon H Sinclair and Clara Epsen
@@ -322,11 +326,12 @@
 - has some purple and yellow square puzzle I fucked up (edit: unlocked it and got an allowance)
 
 # Treasure Trove
-- Green Memo - ____ Box -  you find in this room will always be true
-- Blue Memo - Blue Box - Green Memos in white boxes are always lies
-- Green Memo - Blue Box - The True Treasure of the trove is not in the house
-- Red Memo - White Box - The previous box in this room contained a true statement
-- Green Memo - White Box - Two Realms have the same colour banner
+- Green Memo - ____ Box -  x - you find in this room will always be true
+- Blue Memo - Blue Box - x - Green Memos in white boxes are always lies
+- Green Memo - Blue Box - x - The True Treasure of the trove is not in the house
+- Red Memo - White Box - x - The previous box in this room contained a true statement
+- Green Memo - White Box - x - Two Realms have the same colour banner
+- Green Memo - Black Box - Moon Symbol - Boxes marked with moon symbol always contain false statements
 
 # Room 8
 - Didn't have a sanctum key?
@@ -414,6 +419,7 @@
 - 10 coins - Blessing of the General - Something red rooms
 - 7 coins - Blessing of the chef - extra food 
 - 5 Coins - Blessing of the Gardener - Add 8 courtyards
+- 5 Coins - Blessing of the Gardener - Add 8 courtyards
 - Dont open the box, you'll get cursed lol
 
 # Solarium
@@ -442,6 +448,10 @@
 - If you light the torches opens secret chamber with goodies
 
 # Underground
+
+## Map (Not a room)
+- The eighh Angel points to our dreams
+  - Only 7 angels in the chapel
 
 ## The Precipice
 - Has a couple foremans log

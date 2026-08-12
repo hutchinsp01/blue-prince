@@ -2,8 +2,6 @@
 - Need to find a way to turn off the freezer - Furnace!
 - Get Safety deposit box keys and vault - Got 3
 - Unlock the fountain when I get basement key - 3rd time the charm
-- Power Hammer the wall in the weight room
-- Get to 50 stars - New constellation
 
 # Rooms
 - Add ClockTower - for sanctum key
