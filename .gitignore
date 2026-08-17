@@ -2,3 +2,6 @@ __pycache__/
 .DS_Store
 .playwright-mcp/
 images/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
