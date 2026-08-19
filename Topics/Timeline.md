@@ -12,7 +12,7 @@ source room is linked on each line. Useful for the eight-dates hint in
 
 - **Sat 7th November — "day one"** — calendar in the [[Drafting Studio]], showing the wall and the [[Apple Orchard]]
 - **3:45pm Friday** — [[Mary Epsen]] went missing ([[Archives]]); [[Root Cellar]] adds she was last seen getting into a carriage last Friday
-- **11-28** — tree image in the [[Darkroom]]. This is the [[Outside]] safe code, **1128** ([[Safes and Codes]])
+- **11-28** — tree image in the [[Darkroom]]. This is the [[The Grounds]] safe code, **1128** ([[Safes and Codes]])
 
 ## 1952
 
@@ -29,7 +29,7 @@ source room is linked on each line. Useful for the eight-dates hint in
 
 ## 1983
 
-- **15 June** — death of [[Lady Clara Epsen]]. Out of respect, don't visit the west wing ([[House Rules]])
+- **15 June** — death of [[Lady Clara Epsen]]. Out of respect, don't visit the west wing
 
 ## 1987 — the year it all happens
 

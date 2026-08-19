@@ -1,6 +1,6 @@
 ---
 type: room
-area: outside
+area: The Grounds
 ---
 
 # Apple Orchard

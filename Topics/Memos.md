@@ -14,27 +14,31 @@ type: topic
 
 ## Red memos seen
 
-All false, by the rule above ([[House Rules]]):
+All false, by the rule above:
 
 - The [[Antechamber]] is unlocked and access levers are no longer required
 - Keycard doors more common north
 - More locked doors north
+- [[Herbert of Sinclair]] and [[Anne Babbage]] are the only two in the estate with network access
+
+## Blue memos Seen
+- Staff contracts are no longer kept on the highest rank
 
 ## The Treasure Trove logic puzzle
 
 Seven memos in [[Treasure Trove]], each in a coloured box:
 
-| Memo | Box | Mark | Statement |
-|------|-----|------|-----------|
-| Green | ____ | x | You find in this room will always be true |
-| Blue | Blue | x | Green memos in white boxes are always lies |
-| Green | Blue | x | The true treasure of the trove is not in the house |
-| Red | White | x | The previous box in this room contained a true statement |
-| Green | White | x | Two realms have the same colour banner |
+| Memo  | Box   | Mark | Statement                                                         |
+| ----- | ----- | ---- | ----------------------------------------------------------------- |
+| Green | ____  | x    | You find in this room will always be true                         |
+| Blue  | Blue  | x    | Green memos in white boxes are always lies                        |
+| Green | Blue  | x    | The true treasure of the trove is not in the house                |
+| Red   | White | x    | The previous box in this room contained a true statement          |
+| Green | White | x    | Two realms have the same colour banner                            |
 | Green | Black | Moon | Boxes marked with the moon symbol always contain false statements |
-| Red | White | Bean | The true treasure of this trove is not in this room |
+| Red   | White | Bean | The true treasure of this trove is not in this room               |
+|       |       |      |                                                                   |
 
 ## See also
 
 - [[Red Notes]]
-- [[House Rules]]

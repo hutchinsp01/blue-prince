@@ -5,3 +5,7 @@ images/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+inbox/
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json

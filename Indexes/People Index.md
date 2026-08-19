@@ -4,11 +4,10 @@ type: index
 
 # People Index
 
-30 people, 4 family/grouping notes.
+32 people, 3 family/grouping notes.
 
 ## Families and groups
 
-- [[Book Name-Lists]]
 - [[Foyer Figures]]
 - [[The Epsens]]
 - [[The Sinclairs]]
@@ -19,6 +18,7 @@ type: index
 - [[Anne Babbage]]
 - [[Baron Edwin Sinclair]]
 - [[Baron Tomas Sinclair]]
+- [[Baroness Auravei]]
 - [[Caleb]]
 - [[Count Isaac Gates]]
 - [[Courtney]]
@@ -32,6 +32,7 @@ type: index
 - [[Juni]]
 - [[Kimberly Thompson]]
 - [[Kirk Darren]]
+- [[Lady Ashlynn]]
 - [[Lady Clara Epsen]]
 - [[Lord Evanson]]
 - [[Lord William Epsen]]

@@ -1,0 +1,5 @@
+---
+type: room
+area: 
+---
+

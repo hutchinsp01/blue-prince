@@ -5,11 +5,6 @@ status: active investigation
 
 # Sigils
 
-Next on the discovery list.
-
-Sigils are a **notation**, not a single symbol — each one encodes a set of values.
-Several distinct sigils exist around the estate; they are not repeats of each other.
-
 ## The grammar
 
 The five components, from the sigil decoded in the [[Secret Garden]]:

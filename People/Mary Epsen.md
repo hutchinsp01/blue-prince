@@ -7,6 +7,7 @@ type: person
 Real name Mary Epsen — "Marion (Mary) Marigold" is the pen name she uses as an author.
 "Mary" of the Dovecote letters is her too. The Epsen name ties her to the Epsen family
 [[Lady Clara Epsen]] [[Lord William Epsen]] — **relation to Clara/William unknown**.
+She addresses the recipient of the [[Vault Box 370 Note]] as **"Uncle"** — a lead on that.
 
 - Went missing at 3:45pm Friday ([[Archives]])
 - No sign found since getting into a carriage last Friday ([[Root Cellar]])

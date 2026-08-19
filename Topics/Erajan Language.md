@@ -1,6 +1,7 @@
 ---
 type: topic
-aliases: [Erajan, Orindan Language]
+aliases:
+  - Erajan
 ---
 
 # Erajan Language
@@ -54,9 +55,9 @@ From the Foreign Language Class poster:
 
 ## Untranslated text found
 
-### The letter (`clara-epsen-grave-note.png`)
+### The letter
 
-Room it was found in is **not recorded**.
+Full artefact: [[Erajan Letter]] — found at Clara Epsen's grave in the [[Tomb]].
 
 ```
 Oreldajiris,
@@ -78,8 +79,6 @@ Hooks visible without full translation:
 - **`dau`** / **`nai`** in `Ulelddau, uleldnai` — day and night
 - **`arei`** = future, in `uldarei` and `eldareilu`
 - Signed **Uldjora**; opens `Oreldajiris,` and closes `Lorja eldiris,`
-
-![[clara-epsen-grave-note.png]]
 
 ## Grade 8 material
 

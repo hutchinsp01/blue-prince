@@ -9,7 +9,8 @@ area: underground
   - Hour glass region
   - Heart region
   - Semi circle region
-  - Odd Rectangle - SOLVED
+  - Odd Rectangle - SOLVED - Door 1
+
 
 ## See also
 

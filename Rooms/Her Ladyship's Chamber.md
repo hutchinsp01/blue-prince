@@ -1,7 +1,6 @@
 ---
 type: room
 area: house
-aliases: [Her Ladyships Chamber]
 ---
 
 # Her Ladyship's Chamber

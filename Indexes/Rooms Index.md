@@ -4,12 +4,9 @@ type: index
 
 # Rooms Index
 
-115 rooms — 70 with notes, 45 still blank (marked ·).
+116 rooms — 71 with notes, 45 still blank (marked ·).
 
 ## Upgraded rooms
-
-Six rooms appear under two names. Each is one note, titled with the upgraded
-name; the base name is an alias, so either spelling finds it.
 
 | Base | Upgrade |
 |------|---------|
@@ -135,20 +132,21 @@ name; the base name is an alias, so either spelling finds it.
 - [[Tool Shed]] ·
 - [[Trading Post]]
 
-## Outside (4/4)
+## The Grounds (4/4)
 
-*estate exterior*
+*the estate exterior*
 
 - [[Apple Orchard]]
 - [[Blackbridge Grotto]]
 - [[Gemstone Cavern]]
-- [[Outside]]
+- [[The Grounds]]
 
-## Underground (6/6)
+## Underground (7/7)
 
 - [[Basement]]
 - [[Catacombs]]
 - [[Inner Sanctum]]
+- [[Sealed Entrance]]
 - [[The Precipice]]
 - [[The Underpass]]
 - [[Underground]]
