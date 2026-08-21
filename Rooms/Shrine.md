@@ -1,6 +1,6 @@
 ---
 type: room
-area: outer
+area: The Grounds
 ---
 
 # Shrine

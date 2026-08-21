@@ -17,7 +17,8 @@ area: house
   - Gems
   - Note
 
-## Images
-
-![[mary-epsen-passport.png]]
-![[mary-espsen-passport-2.png]]
+## Artefacts
+<!-- artefacts:start -->
+- [[Mary Epsen's Passports]]
+- [[Vault Box 370 Note]]
+<!-- artefacts:end -->

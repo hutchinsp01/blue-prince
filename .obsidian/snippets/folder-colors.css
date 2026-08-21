@@ -1,0 +1,36 @@
+/* Pin File Rainbow colours to named folders instead of tree position.
+
+   AnuPpuccin cycles --rainbow-folder-color by :nth-child, so colours shift
+   whenever a folder is added or renamed. Targeting data-path pins them.
+
+   Two things to know if you edit this:
+   - the value is a RAW RGB TRIPLET ("202, 158, 230"), not a colour, because
+     the theme uses it as rgba(var(--rainbow-folder-color), opacity)
+   - !important is needed: the theme's nth-child selector is more specific  */
+
+.nav-folder:has(> .nav-folder-title[data-path="Artefacts"]) {
+  --rainbow-folder-color: var(--ctp-mauve) !important;
+}
+.nav-folder:has(> .nav-folder-title[data-path="Rooms"]) {
+  --rainbow-folder-color: var(--ctp-blue) !important;
+}
+.nav-folder:has(> .nav-folder-title[data-path="People"]) {
+  --rainbow-folder-color: var(--ctp-green) !important;
+}
+.nav-folder:has(> .nav-folder-title[data-path="Topics"]) {
+  --rainbow-folder-color: var(--ctp-peach) !important;
+}
+.nav-folder:has(> .nav-folder-title[data-path="Templates"]) {
+  --rainbow-folder-color: var(--ctp-overlay0) !important;
+}
+.nav-folder:has(> .nav-folder-title[data-path="images"]),
+.nav-folder:has(> .nav-folder-title[data-path="inbox"]) {
+  --rainbow-folder-color: var(--ctp-surface2) !important;
+}
+
+/* Hide plumbing folders from the file explorer entirely. Obsidian's
+   "Excluded files" setting only greys them out, it does not remove them. */
+.nav-folder:has(> .nav-folder-title[data-path="__pycache__"]),
+.nav-folder:has(> .nav-folder-title[data-path=".playwright-mcp"]) {
+  display: none;
+}

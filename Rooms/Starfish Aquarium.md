@@ -14,7 +14,7 @@ upgrade_of: Aquarium
 - X marks the spot under the bbq in [[Patio|patio]]
 - Arrow pointing at filing cabinet in [[Archives|archive]]
 
-## Images
-
-![[aquarium-1.png]]
-![[aquarium-2.png]]
+## Artefacts
+<!-- artefacts:start -->
+- [[Aquarium Clues]]
+<!-- artefacts:end -->

@@ -2,11 +2,16 @@
 type: artefact
 kind: photo
 room: "[[Drafting Studio]]"
-location:
-found:
-dated:
+people:
+  - "[[Herbert of Sinclair]]"
+location: 
+found: 
+dated: 
 magnified: false
-person: "[[Herbert of Sinclair]]"
 ---
+
+# Painting of Herbert
+
+Shows where the [[Drafting Studio]] safe is.
+
 ![[painting-of-herbert.png]]
-Shows where [[Drafting Studio]] safe is

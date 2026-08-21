@@ -2,11 +2,16 @@
 type: artefact
 kind: other
 room: "[[Her Ladyship's Chamber]]"
-location:
-found:
-dated:
+people:
+  - "[[Simon H Sinclair]]"
+location: 
+found: 
+dated: 
 magnified: true
-person: "[[Simon H Sinclair]]"
 ---
+
+# Simon Locket
+
 ![[simon-locket-1.png]]
+
 ![[simon-locket-2.png]]

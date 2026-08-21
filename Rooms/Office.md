@@ -18,3 +18,11 @@ area: house
   - [[Hartley]] (Valet)
   - Fuse (off, blue, green, white, red, purple)
     - White only available after setting a 6 purple
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Book List]]
+- [[Office Email - 1]]
+- [[Office Email - 2]]
+- [[Office Email - 4]]
+<!-- artefacts:end -->

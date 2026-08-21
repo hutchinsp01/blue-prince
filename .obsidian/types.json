@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "magnified": "checkbox",
-    "location": "multitext"
+    "location": "multitext",
+    "flowers": "multitext"
   }
 }

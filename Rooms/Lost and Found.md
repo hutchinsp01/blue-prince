@@ -7,6 +7,7 @@ area: house
 
 - Has a sigil — a **different** sigil to the [[Secret Garden]] one, not a repeat of it. Not decoded yet. See [[Sigils]]
 
-## Images
-
-![[lost-and-found-sigil.png]]
+## Artefacts
+<!-- artefacts:start -->
+- [[Lost and Found Sigil]]
+<!-- artefacts:end -->

@@ -5,7 +5,11 @@ type: person
 # Lord William Epsen
 
 - Listed among the Foyer people ([[Foyer]])
+- Statue in the [[Foyer]] — see [[Foyer Statues]]
 
-## Images
-
-![[foyer-lord-william-epsen.png]]
+## Artefacts
+<!-- artefacts:start -->
+### Appears in
+- [[Foyer Statues]]
+- [[Lord William Epsen Photo]]
+<!-- artefacts:end -->

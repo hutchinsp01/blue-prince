@@ -5,7 +5,10 @@ type: person
 # Je Ari Yenna
 
 - Listed among the Foyer people ([[Foyer]])
+- Statue in the [[Foyer]] — see [[Foyer Statues]]
 
-## Images
-
-![[foyer-je-ari-yenna.png]]
+## Artefacts
+<!-- artefacts:start -->
+### Appears in
+- [[Foyer Statues]]
+<!-- artefacts:end -->

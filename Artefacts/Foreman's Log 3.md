@@ -8,3 +8,5 @@ dated: 7/2/1915
 magnified: false
 ---
 ![[foremans-log-3 1.png]]
+
+![[foremans-log-3.png]]

@@ -6,7 +6,7 @@ location:
 found:
 dated:
 magnified: true
-to: "[[Simon]]"
+to: "[[Simon P Jones]]"
 from: Dad
 ---
 

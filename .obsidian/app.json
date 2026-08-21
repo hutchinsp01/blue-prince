@@ -5,6 +5,7 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
   "userIgnoreFilters": [
-    ".playwright-mcp/"
+    ".playwright-mcp/",
+    "__pycache__/"
   ]
 }

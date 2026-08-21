@@ -6,11 +6,6 @@ type: index
 
 Notes on Mount Holly. Start here.
 
-## Indexes
-
-- [[Rooms Index]] — every room, grouped by house / outer / The Grounds / underground
-- [[People Index]] — everyone named so far
-
 ## The mysteries
 
 - [[Sigils]] — the notation, and the sigils found so far. **Next on the list**
@@ -19,7 +14,7 @@ Notes on Mount Holly. Start here.
 - [[Safes and Codes]] — every safe, every loose number
 - [[Timeline]] — every date found, in order. 1987 is where it all happens
 - [[The Redguard]] — what is it, and what were they investigating
-- [[Red Notes]] — 8 letters by 8 different people
+- [[Red Letters]] — 8 letters by 8 different people
 - [[House of Orinda]] — the Aries line
 
 ## Reference
@@ -54,13 +49,22 @@ It's read by `blue_prince.py` and `server.py` — not part of the vault.
   - `from` / `to` — correspondence only. Add them when there's an obvious
     sender; don't stamp them on maps, boards or logs. Link where the person
     has a note, plain text while they're unidentified (e.g. `to: Uncle`)
+  - `people` — who the artefact depicts or is about, as a YAML list. Use it
+    for portraits, photos and group scenes; `from`/`to` already cover letters
   - `found` — day number, matching `log.csv`
   - `dated` — the date printed on the artefact itself
   - `magnified` — have you checked it with the magnifying glass?
     Renders as a checkbox. Find the outstanding ones with the search
     `[magnified:false]`
-- `Topics/` — cross-cutting threads that span rooms
-- `Indexes/` — generated lists
+- `python3 artefact_lists.py` also prints how many rooms are written up,
+  overall and per area — that count lives in the script, not in a note.
+- Room and people notes carry an `## Artefacts` list between marker comments.
+  Rooms come from `room:`; people are grouped **Wrote** / **Received** /
+  **Appears in** from `from:`, `to:` and `people:`. Refresh with
+  `python3 artefact_lists.py` (`--check` shows drift, `--remove` strips them).
+  The markers mean re-running never touches your own prose.
+- `Topics/` — cross-cutting threads that span rooms. Anything that's really
+  a physical object belongs in `Artefacts/` instead
 - `Templates/` — Templater stamps these on new notes by folder:
   `Artefacts/`, `Rooms/`, `People/`
 - `images/` — filed screenshots, embedded with `![[name.png]]`. Gitignored

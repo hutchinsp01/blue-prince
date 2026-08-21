@@ -1,11 +1,9 @@
 ---
 type: person
-aliases: [Christoph]
+aliases:
 ---
 
 # Cristoff
-
-Spelled both **Cristoff** and **Christoph** in the notes — same person.
 
 - Is disappearing ([[Garage]])
 - Suspicious car delivery to 14227 Sandy Heights; goods in trunk; "[[Denny Revane|Denny]] already has payment?" ([[Garage]])
@@ -15,3 +13,12 @@ Spelled both **Cristoff** and **Christoph** in the notes — same person.
 ## See also
 
 - [[Denny Revane]]
+
+## Artefacts
+<!-- artefacts:start -->
+### Received
+- [[Garage Note]]
+
+### Appears in
+- [[Garage Secret Letter]]
+<!-- artefacts:end -->

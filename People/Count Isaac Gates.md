@@ -5,7 +5,10 @@ type: person
 # Count Isaac Gates
 
 - Listed among the Foyer people ([[Foyer]])
+- Statue in the [[Foyer]] — see [[Foyer Statues]]
 
-## Images
-
-![[foyer-count-isaac-gates.png]]
+## Artefacts
+<!-- artefacts:start -->
+### Appears in
+- [[Foyer Statues]]
+<!-- artefacts:end -->

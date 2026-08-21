@@ -14,3 +14,8 @@ area: house
     - Rays - 3
     - Moats - Metropolitan x5
     - Weather? - Fog
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Orinda Sigil]]
+<!-- artefacts:end -->

@@ -2,12 +2,15 @@
 type: artefact
 kind: note
 room: "[[Music Room]]"
-location: "[[Music Room]]"
+location:
+  - "[[Music Room]]"
+  - "[[Workshop]]"
 found:
 dated:
 magnified: false
 ---
 Sheets 1-4 - [[Music Room]]
+Sheet 8  [[Workshop]]
 ![[music-sheet-1.png]]
 ![[music-sheet-2.png]]
 ![[music-sheet-3.png]]

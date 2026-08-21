@@ -20,7 +20,8 @@ area: house
 - In drawer
   - The secret room is not as secure as you thought. We have your letters. 8 letters 8 payments 100 gold instructions to follow
 
-## Images
-
-![[46-room-note.png]]
-![[sanctum-keys.png]]
+## Artefacts
+<!-- artefacts:start -->
+- [[Room 46 Note]]
+- [[Sanctum Keys Rhyme]]
+<!-- artefacts:end -->

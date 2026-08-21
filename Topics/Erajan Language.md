@@ -91,14 +91,6 @@ The worksheet asks for six English→Erajan translations:
 5. "The branches of the tree are old."
 6. "The trunk of the tree is small."
 
-![[classroom-8-sheet.png]]
-![[classroom-8-board-1.png]]
-![[classroom-8-board-2.png]]
-![[classroom-8-board-3.png]]
-![[classroom-8-answer-1.png]]
-![[classroom-8-answer-2.png]]
-![[classroom-8-answer-3.png]]
-
 ## Open
 
 - [ ] Translate the letter in full

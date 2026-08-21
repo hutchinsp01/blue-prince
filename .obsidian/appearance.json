@@ -1,3 +1,7 @@
 {
-  "accentColor": "#4a6fa5"
+  "accentColor": "#4a6fa5",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "folder-colors"
+  ]
 }

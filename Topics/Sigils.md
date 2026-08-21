@@ -37,8 +37,6 @@ Visible in the screenshot: an irregular polygon; two crossed-circle marks;
 wavy lines running along one edge; a stepped/crenellated edge opposite them;
 a small triangle.
 
-![[lost-and-found-sigil.png]]
-
 ### The book plate
 
 The reference diagram in [[The Precipice]] — whether this is the notation's
@@ -47,8 +45,6 @@ legend or a specific sigil isn't clear yet.
 Visible: a pentagon core; four lines through the centre dividing it into eight
 sectors, each ray tipped with tick marks at the rim; eight small runic glyphs,
 one per sector; an outer ring of wavy hatching.
-
-![[book-sigil.png]]
 
 ## Open
 

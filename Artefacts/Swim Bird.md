@@ -12,10 +12,10 @@ magnified: false
 Read in the [[Library]].
 
 - Names
-  - [[Herbert of Sinclair|Hebert of Sinclair]]?
-  - Mrs peterson
-  - SIMON — see [[Simon]]
+  - [[Herbert of Sinclair|Hebert of Sinclair]]
+  - [[Mrs Hannah Peterson]]
+  - [[Simon P Jones]]
   - [[Mrs Hannah Peterson|Mrs Peterson]]
-  - [[Anne Babbage|Anne Babage]]
+  - [[Anne Babbage]]
   - [[Det Bon Margle]]
   - [[Simon P Jones]]

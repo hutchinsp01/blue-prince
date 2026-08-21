@@ -9,7 +9,3 @@ area: house
 - Draining Pool just reveals coins
 - Draining Fountain gives 2nd entrance to [[Basement]]
 - See [[EPCW Pump]] in the [[Library]] — relates to this room
-
-## Images
-
-![[reservoir-level.png]]

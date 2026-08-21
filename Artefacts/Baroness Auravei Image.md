@@ -6,7 +6,11 @@ room:
 location:
 found:
 dated:
-person: "[[Baroness Auravei]]"
+people:
+  - "[[Baroness Auravei]]"
 magnified: true
 ---
+
+# Baroness Auravei Image
+
 ![[baroness-auravei.png]]

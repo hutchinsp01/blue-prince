@@ -12,7 +12,3 @@ area: house
 - Unused pairings
   - Glove, sLing, crowD, gRown, sNack
   - GLDRN
-
-## Images
-
-![[chess-board.png]]

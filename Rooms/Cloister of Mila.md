@@ -13,3 +13,8 @@ upgrade_of: Cloister
 
 - Switches at bottom of pillar facing statue
 - C X E T (bottom of statue)
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Cloister Statue]]
+<!-- artefacts:end -->

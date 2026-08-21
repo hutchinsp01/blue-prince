@@ -38,9 +38,9 @@ source room is linked on each line. Useful for the eight-dates hint in
 | 24 Jan | Kirk Darren — south lever in the weight room, concealed | [[Security]] |
 | 10 Feb | [[Randolph Moore]] — stop the cameras recording | [[Security]] |
 | 10 Feb | Recording capabilities of all cameras disabled (logged `02-10-87`) | [[Blackbridge Grotto]] |
-| 22 Feb | [[Randolph Moore]] — working to get more supplies | [[Bunker]] |
-| 25 Feb | [[Randolph Moore]] — long-term solution, may involve a boat ride | [[Bunker]] |
-| 28 Feb | [[Randolph Moore]] — [[The Redguard\|RedGuard]] coming tomorrow to investigate the disappearance, too risky to move | [[Bunker]] |
+| 22 Feb | [[Randolph Moore]] — working to get more supplies | [[Shelter]] |
+| 25 Feb | [[Randolph Moore]] — long-term solution, may involve a boat ride | [[Shelter]] |
+| 28 Feb | [[Randolph Moore]] — [[The Redguard\|RedGuard]] coming tomorrow to investigate the disappearance, too risky to move | [[Shelter]] |
 | 20 Mar | [[Denny Revane]]'s last day — termination note | [[Hovel]] |
 | 5 Apr | Chef — to heat the [[Freezer]], draft the [[Furnace]] nearby | [[Laboratory]] |
 | 12 Apr | Note about the decline of [[The Red Prince]] | [[Attic]] |

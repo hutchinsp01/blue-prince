@@ -16,3 +16,11 @@ area: outer
 - Does the [[Chapel|chapel]] statues match the tomb
   - YES, click them in order
 - If you light the torches opens secret chamber with goodies
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Clara Epsen's Diary Key]]
+- [[Dead End]]
+- [[Erajan Letter]]
+- [[Herbert's Death Letter]]
+<!-- artefacts:end -->

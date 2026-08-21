@@ -4,8 +4,13 @@ type: person
 
 # Kirk Darren
 
-- **24 Jan 1987** — email: south lever in the weight room, concealed ([[Security]])
+## Artefacts
+<!-- artefacts:start -->
+### Wrote
+- [[Security Email - 3]]
 
-## See also
-
-- [[Timeline]]
+### Received
+- [[Security Email - 1]]
+- [[Security Email - 2]]
+- [[Security Email - 4]]
+<!-- artefacts:end -->

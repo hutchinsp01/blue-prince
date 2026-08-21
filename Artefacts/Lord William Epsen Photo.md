@@ -2,11 +2,14 @@
 type: artefact
 kind: photo
 room: "[[Her Ladyship's Chamber]]"
-location:
-found:
-dated:
+people:
+  - "[[Lord William Epsen]]"
+location: 
+found: 
+dated: 
 magnified: true
-person: "[[Lord William Epsen]]"
 ---
+
+# Lord William Epsen Photo
 
 ![[lord-william-epsen-photo.png]]

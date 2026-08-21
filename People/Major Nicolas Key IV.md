@@ -6,7 +6,10 @@ type: person
 
 - Listed among the Foyer people ([[Foyer]])
 - Possibly connected to "Herrings / Hearings of the Major" ([[Office]])
+- Statue in the [[Foyer]] — see [[Foyer Statues]]
 
-## Images
-
-![[foyer-major-nicolas.png]]
+## Artefacts
+<!-- artefacts:start -->
+### Appears in
+- [[Foyer Statues]]
+<!-- artefacts:end -->

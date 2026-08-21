@@ -7,7 +7,7 @@ found:
 dated:
 magnified: true
 from: "[[Randolph Moore]]"
-to: "[[Simon]]"
+to: "[[Simon P Jones]]"
 ---
 
 TODO — image not captured yet.

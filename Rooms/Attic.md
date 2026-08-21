@@ -8,6 +8,7 @@ area: house
 - Note about the decline of [[The Red Prince]] - April 12
 - Note about the middle left security screen? Have screenshot
 
-## Images
-
-![[attic-security.png]]
+## Artefacts
+<!-- artefacts:start -->
+- [[Attic Security Note]]
+<!-- artefacts:end -->

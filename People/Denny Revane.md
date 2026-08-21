@@ -8,3 +8,9 @@ type: person
 - Note of termination addressed to "Mr Ravane", last day 20th March ([[Hovel]])
 - "Denny already has payment?" — goods in the trunk, drop off at 14227 Sandy Heights ([[Garage]])
 - Name spelled both Revane and Ravane — assuming the same person
+
+## Artefacts
+<!-- artefacts:start -->
+### Appears in
+- [[Garage Secret Letter]]
+<!-- artefacts:end -->

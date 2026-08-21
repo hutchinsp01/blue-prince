@@ -2,17 +2,9 @@
 type: artefact
 kind: book
 room: "[[Library]]"
-author: Marion Marigold
-found: 
-dated: 
-magnified: false
+author: "[[Mary Epsen|Marion Marigold]]"
+found:
+dated:
+magnified: true
 ---
-
-# A New Clue
-
-By Marion Marigold — the pen name of [[Mary Epsen]] ([[Book Shop]]).
-
-Read in the [[Library]]:
-
-- Cuckoo clocks?
-- diction of each word was a sound?
+![[a-new-clue.png]]![[a-new-clue-page-1.png]]![[a-new-clue-page-2.png]]![[a-new-clue-page-3.png]]![[a-new-clue-page-4.png]]![[a-new-clue-page-5.png]]![[a-new-clue-page-6.png]]![[a-new-clue-page-7.png]]![[a-new-clue-page-8.png]]![[a-new-clue-page-9.png]]![[a-new-clue-page-10.png]]![[a-new-clue-page-11.png]]![[a-new-clue-magnify-1.png]]![[a-new-clue-magnify-2.png]]![[a-new-clue-magnify-3.png]]![[a-new-clue-magnify-4.png]]

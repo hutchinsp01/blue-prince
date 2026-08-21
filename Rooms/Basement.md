@@ -7,3 +7,9 @@ area: underground
 
 - Need to hit wall with [[Workshop|power hammer]]
 - Hundred Bells - Sandy Heights 5pm
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Antechamber Entry Controls]]
+- [[Hundred Bells]]
+<!-- artefacts:end -->

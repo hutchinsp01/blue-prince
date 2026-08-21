@@ -10,3 +10,13 @@ area: house
   - Unlocks [[Blackbridge Grotto|Blackbridge grotto]]
 - Periodic Table
   - PUSH THREE UP AFTER NINE
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Heating and Cooling Curves]]
+- [[Laboratory Email - 1]]
+- [[Laboratory Email - 2]]
+- [[Laboratory Email - 3]]
+- [[Laboratory Email - 4]]
+- [[Laboratory Note]]
+<!-- artefacts:end -->
