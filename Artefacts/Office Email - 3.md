@@ -1,7 +1,7 @@
 ---
 type: artefact
 kind: email
-room:
+room: "[[Office]]"
 location:
 found:
 dated: 7/10/1993

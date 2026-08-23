@@ -13,4 +13,5 @@ type: person
 <!-- artefacts:start -->
 ### Appears in
 - [[Garage Secret Letter]]
+- [[Mail Room Note]]
 <!-- artefacts:end -->

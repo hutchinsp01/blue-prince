@@ -2,7 +2,7 @@
 type: room
 area: house
 ---
-
+ss
 # Room 8
 
 - Didn't have a [[Sanctum Keys|sanctum key]]?

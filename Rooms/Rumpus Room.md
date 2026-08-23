@@ -23,4 +23,6 @@ area: house
   - Everyone has their own secrets, but all in the same chair - The one in the [[Drawing Room|drawing room]]
 - 5th
   - statue of warrior with wings
-  - waiting at a train station? at 3pm?
+  - waiting at a train station? at 12:15
+- 6th
+  -

@@ -16,6 +16,7 @@ type: topic
 - Keycard doors more common north
 - More locked doors north
 - [[Herbert of Sinclair]] and [[Anne Babbage]] are the only two in the estate with network access
+- Effective Immediately electronic mail can only be accessed via the security terminal - [[Laboratory]]
 
 ## Blue memos Seen
 - Staff contracts are no longer kept on the highest rank

@@ -10,6 +10,7 @@ area: house
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Fuse Box Indicator Settings]]
 - [[Letter From Dad]]
 - [[Mail Room - Letter 1]]
 - [[Mail Room - Letter 2]]
@@ -18,4 +19,5 @@ area: house
 - [[Mail Room - Letter 5]]
 - [[Mail Room - Letter 6]]
 - [[Mail Room - Letter 7]]
+- [[Mail Room Note]]
 <!-- artefacts:end -->

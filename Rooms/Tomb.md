@@ -16,6 +16,7 @@ area: outer
 - Does the [[Chapel|chapel]] statues match the tomb
   - YES, click them in order
 - If you light the torches opens secret chamber with goodies
+- After sleeping in [[Bunk Room]], flower with gem on grave - [[Her Ladyships Sleep Diary]]
 
 ## Artefacts
 <!-- artefacts:start -->

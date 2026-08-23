@@ -22,6 +22,6 @@ area: house
 
 ## Artefacts
 <!-- artefacts:start -->
-- [[Room 46 Note]]
+- [[8 Letters 8 Payments]]
 - [[Sanctum Keys Rhyme]]
 <!-- artefacts:end -->

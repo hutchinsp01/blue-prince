@@ -7,3 +7,8 @@ area: outer
 
 - Had blue flame switch
 - Note to [[Denny Revane|Mr Ravane]] of termination - Last day 20th March
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Hovel Room 46 Note]]
+<!-- artefacts:end -->
