@@ -15,3 +15,4 @@ area: house
 | Green | Black | Moon | Boxes marked with the moon symbol always contain false statements |
 | Red   | White | Bean | The true treasure of this trove is not in this room               |
 | Blue  | Black | Sun  | All Boxes marked by Sun contain memos that are true               |
+| Green | Blue  | Sun  | Pink Boxes marked by Moon always contain false statements         |

@@ -10,5 +10,6 @@ type: person
 ## Artefacts
 <!-- artefacts:start -->
 ### Appears in
+- [[Mary Epsen Birth Certificate]]
 - [[Simon Locket]]
 <!-- artefacts:end -->

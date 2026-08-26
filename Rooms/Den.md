@@ -8,3 +8,8 @@ area: house
 - 2 back clocks have diagrams indicating
   - 9:15 and 11:05
   - 3:45 and 1:55
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Den Clocks]]
+<!-- artefacts:end -->

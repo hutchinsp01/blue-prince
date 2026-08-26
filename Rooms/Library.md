@@ -17,7 +17,7 @@ Each book has its own note — names and plot details live there.
 - [[The Curse of The Black Bridge]]
 - [[Drafting Strategy Vol 3]]
 - [[Drafting Strategy Vol 5]]
-- [[History of Orinda]] (censored) — suspect an uncensored version exists somewhere
+- [[The History of Orindia]] (censored) — suspect an uncensored version exists somewhere
 - [[Realm & Rune]]
 
 ## Artefacts
@@ -27,8 +27,8 @@ Each book has its own note — names and plot details live there.
 - [[Drafting Strategy Vol 3]]
 - [[Drafting Strategy Vol 5]]
 - [[EPCW Pump]]
-- [[History of Orinda]]
 - [[Realm & Rune]]
 - [[Swim Bird]]
 - [[The Curse of The Black Bridge]]
+- [[The History of Orindia]]
 <!-- artefacts:end -->

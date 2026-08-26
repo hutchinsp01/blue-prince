@@ -29,4 +29,6 @@ She addresses the recipient of the [[Vault Box 370 Note]] as **"Uncle"** — a l
 
 ### Appears in
 - [[Blackbridge Logs]]
+- [[Marion Marigold News Scrapbook]]
+- [[Mary Epsen Birth Certificate]]
 <!-- artefacts:end -->

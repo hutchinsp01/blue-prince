@@ -2,15 +2,16 @@
 type: artefact
 kind: note
 room: "[[Archives]]"
-dated: 1958-01-22
-location: 
-found: 
-dated: 
+location:
+found:
+dated: 22/01/1958
 magnified: false
+people:
+  - "[[Mary Epsen]]"
+  - "[[Lady Clara Epsen]]"
+  - "[[Simon H Sinclair]]"
 ---
 
-# Mary Epsen Birth Certificate
-
-[[Mary Epsen]] — 4:05am Tuesday 22/01/1958.
 
 ![[mary-epsen-birth-certificate.png]]
+

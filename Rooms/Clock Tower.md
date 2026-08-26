@@ -1,9 +1,12 @@
 ---
 type: room
 area: house
-status: no notes yet
+status:
 ---
+- One of the clocks isn't working - Eastward one
 
-# Clock Tower
-
-_No notes for this room yet._
+## Artefacts
+<!-- artefacts:start -->
+- [[Clock Tower Sigil]]
+- [[Clocktower Note]]
+<!-- artefacts:end -->

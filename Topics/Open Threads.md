@@ -9,7 +9,6 @@ type: topic
 - [ ] Need to find a way to turn off the [[Freezer]] — [[Furnace]]!
 - [ ] Get safety deposit box keys and [[Vault]] — got 3
 - [ ] Unlock the fountain when I get the basement key — 3rd time the charm ([[Pump Room]])
-- [ ] Sleep in [[Bunk Room]] thæn draft tomb - Extra flower - [[Her Ladyships Sleep Diary]]
 - [ ] Set Reservoir to 6 [[Reservoir Level]] - [[Reservoir]]
 
 ## Rooms to draft
@@ -30,9 +29,3 @@ Full table in [[Sanctum Keys]].
 
 - [ ] **[[Erajan Language]]** — translate the letter, identify Uldjora
 - [ ] **[[Sigils]]** —Try the [[Lost and Found]] one in the open rooms
-
-## Unresolved elsewhere
-
-- [ ] Who is **"Uncle"** — recipient of the [[Vault Box 370 Note]] from [[Mary Epsen]]?
-- [ ] Find an Archive Access to view the deleted logs ([[Blackbridge Grotto]])
-- [ ] Identify the short-surname admin key from 25 Jul 87 ([[Terminals and Logins]])

@@ -8,7 +8,7 @@ aliases:
 
 The foreign language on the estate. Taught in the [[Classroom]] at **Grade 8**
 (Classroom Rank 7). Named for **Eraja**, one of the names in
-[[History of Orinda]] — see [[House of Orinda]].
+[[The History of Orindia]] — see [[House of Orinda]].
 
 ## Affix pairings
 

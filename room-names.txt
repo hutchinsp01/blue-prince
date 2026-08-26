@@ -13,6 +13,7 @@ casino
 chamber-of-mirrors
 chapel
 classroom
+clocktower
 cloister-of-mila
 coat-check
 commissary

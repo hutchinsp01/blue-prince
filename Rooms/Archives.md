@@ -13,5 +13,6 @@ area: house
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Marion Marigold News Scrapbook]]
 - [[Mary Epsen Birth Certificate]]
 <!-- artefacts:end -->

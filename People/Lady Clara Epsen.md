@@ -9,3 +9,9 @@ type: person
 - Photo of Clara & Simon - 1952 ([[Ballroom]]) [[Simon H Sinclair]]
 - Her Ladyship's Chamber is suspected to be her room — has a locked diary, and a spiral drawing saying "Does it never end" ([[Her Ladyship's Chamber]])
 - A letter in [[Erajan Language|Erajan]] filed under her name (`clara-epsen-grave-note.png`) — names both House Sinclair and House Epsen. Room it was found in is not recorded
+
+## Artefacts
+<!-- artefacts:start -->
+### Appears in
+- [[Mary Epsen Birth Certificate]]
+<!-- artefacts:end -->
