@@ -42,7 +42,7 @@ source room is linked on each line. Useful for the eight-dates hint in
 | 25 Feb | [[Randolph Moore]] — long-term solution, may involve a boat ride | [[Shelter]] |
 | 28 Feb | [[Randolph Moore]] — [[The Redguard\|RedGuard]] coming tomorrow to investigate the disappearance, too risky to move | [[Shelter]] |
 | 20 Mar | [[Denny Revane]]'s last day — termination note | [[Hovel]] |
-| 5 Apr | Chef — to heat the [[Freezer]], draft the [[Furnace]] nearby | [[Laboratory]] |
+| 5 Apr | Chef — to heat the [[Rooms/Freezer]], draft the [[Furnace]] nearby | [[Laboratory]] |
 | 12 Apr | Note about the decline of [[The Red Prince]] | [[Attic]] |
 | 8 May | Red message 1 — blackmail letter to Baron Sinclair from Worth Laude | [[The Underpass]] |
 | 25 Jul | New admin key that doesn't fit the typical length format (short surname) | [[Blackbridge Grotto]] |

@@ -8,3 +8,8 @@ area: The Grounds
 - Two other ways in
 - Stuck cart
 - Second blue flame
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Cavern Note]]
+<!-- artefacts:end -->

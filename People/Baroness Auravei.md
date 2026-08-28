@@ -6,4 +6,5 @@ type: person
 <!-- artefacts:start -->
 ### Appears in
 - [[Baroness Auravei Image]]
+- [[Family Tree]]
 <!-- artefacts:end -->

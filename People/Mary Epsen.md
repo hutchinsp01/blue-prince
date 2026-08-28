@@ -25,10 +25,14 @@ She addresses the recipient of the [[Vault Box 370 Note]] as **"Uncle"** — a l
 ## Artefacts
 <!-- artefacts:start -->
 ### Wrote
+- [[A New Clue]]
 - [[Vault Box 370 Note]]
 
 ### Appears in
 - [[Blackbridge Logs]]
+- [[Family Tree]]
 - [[Marion Marigold News Scrapbook]]
 - [[Mary Epsen Birth Certificate]]
+- [[Mary Epsen's Passports]]
+- [[Search Continues Note]]
 <!-- artefacts:end -->

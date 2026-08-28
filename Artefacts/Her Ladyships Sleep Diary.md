@@ -8,6 +8,7 @@ dated:
 magnified: true
 ---
 Unlocked by key in [[Tomb]]
+Page 9 - shows map of [[West Path]]
 
 ![[her-ladyships-sleep-diary-page-1.png]]
 

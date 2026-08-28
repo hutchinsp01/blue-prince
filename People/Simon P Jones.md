@@ -10,6 +10,7 @@ type: person
 ## Artefacts
 <!-- artefacts:start -->
 ### Received
+- [[Freezer Letter]]
 - [[Letter From Dad]]
 - [[Mail Room - Letter 1]]
 - [[Mail Room - Letter 2]]

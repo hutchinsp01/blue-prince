@@ -1,12 +1,12 @@
 ---
 type: artefact
 kind: note
-room:
+room: "[[Cloister of Mila|Cloister]]"
 location:
 found:
 dated:
 magnified: true
-to: "[[Mr Nogula]]"
+to: "[[Robert Nogula]]"
 from: "[[Anne Babbage]]"
 ---
 ![[cloister-note.png]]

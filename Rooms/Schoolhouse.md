@@ -12,3 +12,8 @@ area: outer
 - closing address
   - Mrs Hannah Peterson (future principle)
   - Baron sinclair (architect)
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Schoolmaster Closing Address]]
+<!-- artefacts:end -->

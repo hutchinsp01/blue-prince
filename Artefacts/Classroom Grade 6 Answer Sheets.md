@@ -1,25 +1,12 @@
 ---
 type: artefact
-kind: sheet
+kind: note
 room: "[[Classroom]]"
-location: 
+location:
+  - Grade 6
 found: 
-dated: 
+dated:
 magnified: false
 ---
-
-# Classroom Grade 6 Answer Sheets
-
-![[classroom-6-1.png]]
-
-![[classroom-6-2.png]]
-
-![[classroom-6-3.png]]
-
-![[classroom-6-4.png]]
-
-![[classroom-6-5.png]]
-
-![[classroom-6-board.png]]
-
-![[classroom-6-sheet.png]]
+![[classroom-6-sheet-blank.png]]![[classroom-6-sheet-1.png]]![[classroom-6-sheet-2.png]]![[classroom-6-sheet-3.png]]
+![[classroom-6-sheet-4.png]]

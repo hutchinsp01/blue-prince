@@ -10,6 +10,7 @@ type: person
 ## Artefacts
 <!-- artefacts:start -->
 ### Appears in
+- [[Family Tree]]
 - [[Foyer Statues]]
 - [[Lord William Epsen Photo]]
 <!-- artefacts:end -->

@@ -6,8 +6,14 @@ type: topic
 
 ## To do
 
-- [ ] Need to find a way to turn off the [[Freezer]] — [[Furnace]]!
+- [ ] Need to find a way to turn off the [[Rooms/Freezer]] — [[Furnace]]!
+      Did this, but was 3 rooms away and 17 degrees, I think I need to be slightly closer to thaw the server?
 - [ ] Figure out how to get access to reservoir pipe
+- [ ] Magnify grade 4 maps
+
+## Oddities
+- [ ] Page 9 of [[Her Ladyships Sleep Diary]] shows 3 door room in [[West Path]]
+- [ ] The eighth angel points to our dreams [[Underground Map]] 
 
 ## Sanctum keys still open
 

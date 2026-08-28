@@ -11,4 +11,5 @@ area: outer
 ## Artefacts
 <!-- artefacts:start -->
 - [[Family Tree]]
+- [[Search Continues Note]]
 <!-- artefacts:end -->

@@ -97,6 +97,7 @@ trophy-room
 utility-closet
 vault
 veranda
+vestibule
 walk-in-closet
 weight-room
 west-wing-hall

@@ -2,17 +2,13 @@
 type: artefact
 kind: note
 room: "[[Vault]]"
-location: 
+location:
 found: 
-dated: 
+dated:
 magnified: false
+people:
+  - "[[Mary Epsen]]"
 ---
-
-# Mary Epsen's Passports
-
-Diplomatic passports from boxes 149 and 233 — [[Mary Epsen]] under the
-names Samantha Hayes and Grey Daniels.
-
 ![[mary-epsen-passport.png]]
 ![[mary-espsen-passport-2.png]]
 ![[mary-espsen-passport-3.png]]

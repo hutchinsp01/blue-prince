@@ -15,6 +15,7 @@ type: person
 - [[Notice Of Termination]]
 
 ### Appears in
+- [[Freezer Network Note]]
 - [[Garage Secret Letter]]
 - [[Mail Room Note]]
 <!-- artefacts:end -->

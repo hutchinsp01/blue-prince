@@ -31,8 +31,14 @@ area: house
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Classroom Grade 1 Answer Sheets]]
+- [[Classroom Grade 2 Answer Sheets]]
+- [[Classroom Grade 3 Answer Sheets]]
 - [[Classroom Grade 4 Answer Sheets]]
+- [[Classroom Grade 4 Maps]]
+- [[Classroom Grade 5 Answer Sheets]]
 - [[Classroom Grade 6 Answer Sheets]]
+- [[Classroom Grade 6 Slide Show]]
 - [[Classroom Grade 7 Answer Sheets]]
 - [[Classroom Grade 8 Answer Sheets]]
 <!-- artefacts:end -->

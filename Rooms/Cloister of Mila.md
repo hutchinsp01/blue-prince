@@ -16,5 +16,6 @@ upgrade_of: Cloister
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Cloister Note]]
 - [[Cloister Statue]]
 <!-- artefacts:end -->

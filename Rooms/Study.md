@@ -12,3 +12,9 @@ area: house
 - Unused pairings
   - Glove, sLing, crowD, gRown, sNack
   - GLDRN
+
+## Artefacts
+<!-- artefacts:start -->
+- [[Study Image Hint]]
+- [[Study Image Instructions]]
+<!-- artefacts:end -->

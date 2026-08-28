@@ -7,5 +7,5 @@ found:
 dated:
 magnified: true
 ---
-
-![[clara-epsen-photo.png]]
+![[clara-epsen-photo-dark-room.png]]
+![[clara-epsen-photo-closet.png]]

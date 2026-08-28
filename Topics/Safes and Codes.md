@@ -8,14 +8,14 @@ type: topic
 
 | Safe                                | Code     | Notes                                                          |
 | ----------------------------------- | -------- | -------------------------------------------------------------- |
-| [[Boudoir]]                         | 2512     | See conflict above                                             |
+| [[Boudoir]]                         | 2512     | Solved - Christmas                                             |
 | [[The Grounds]] ([[Apple Orchard]]) | **1128** | **Solved** — from the tree dated **11-28** in the [[Darkroom]] |
 | [[Shelter]]                         | —        | Unlocked with date and time, and waiting                       |
 | [[Office]]                          | 9083?    | Probably wrong — code found in the [[Conference Room]]         |
-| [[Study]]                           | —        | Detailed model of this safe is in the [[Drafting Studio]]      |
+| [[Study]]                           | —        | Queen on D8 - Queens Date??                                    |
 | [[Drawing Room]]                    | —        | Candle stick on left                                           |
-| [[The Underpass]]                   | —        | May 8th                                                        |
-| [[Drafting Studio]]                 |          | Use magnifying glass on it                                     |
+| [[The Underpass]]                   | May8     | Solved - Only possible solution                                |
+| [[Drafting Studio]]                 | --       | Use magnifying glass on it                                     |
 
 ## Loose numbers
 

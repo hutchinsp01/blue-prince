@@ -12,5 +12,5 @@ area: The Grounds
 
 ## Artefacts
 <!-- artefacts:start -->
-- [[Soil Survey]]
+- [[Gardener's Logbook]]
 <!-- artefacts:end -->

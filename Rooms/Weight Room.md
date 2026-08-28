@@ -10,5 +10,6 @@ _No notes for this room yet._
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Underground Map]]
 - [[Underground Map Fragment - 1]]
 <!-- artefacts:end -->

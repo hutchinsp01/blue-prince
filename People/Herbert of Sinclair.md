@@ -13,6 +13,7 @@ type: person
 ## Artefacts
 <!-- artefacts:start -->
 ### Wrote
+- [[Freezer Letter]]
 - [[Hartley Termination]]
 - [[Herbert's Postcard]]
 - [[Laboratory Email - 1]]
@@ -27,5 +28,6 @@ type: person
 - [[Red Letter 4]]
 
 ### Appears in
+- [[Family Tree]]
 - [[Painting of Herbert]]
 <!-- artefacts:end -->

@@ -2,9 +2,10 @@
 type: artefact
 kind: book
 room: "[[Library]]"
-aliases: [Sightseer' guide to reddington]
+aliases:
+  - Sightseer' guide to reddington
 found: 
-dated: 
+dated:
 magnified: false
 ---
 

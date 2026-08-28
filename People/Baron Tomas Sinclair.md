@@ -11,5 +11,6 @@ type: person
 ## Artefacts
 <!-- artefacts:start -->
 ### Appears in
+- [[Family Tree]]
 - [[Foyer Statues]]
 <!-- artefacts:end -->
