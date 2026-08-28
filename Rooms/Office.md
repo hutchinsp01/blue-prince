@@ -15,7 +15,7 @@ area: house
   - Herrings(hearings) of the Major - 0
 - [[Greenhouse]] [[Antechamber|antechamber]] broken (only west and east work)
 - Email
-  - [[Hartley]] (Valet)
+  - [[People/Hartley]] (Valet)
   - Fuse (off, blue, green, white, red, purple)
     - White only available after setting a 6 purple
 

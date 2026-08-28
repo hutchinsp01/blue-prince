@@ -9,7 +9,10 @@ type: topic
 - **Red memos** — false
 - **Green memos** — depends on where you find them:
   - Green memos in [[Hartley]]'s room are always false ([[Darkroom]])
-  - Green memos in white boxes are always lies (per a blue memo in the [[Treasure Trove]], so this one is true)
+
+## Green Memos Seen
+- There are twelve major keys - [[Servants Quarters]] / [[Hartley]]'s room
+- Kirk Darren is a Pseudonym - [[Locker Room]]
 
 ## Red memos seen
 - The [[Antechamber]] is unlocked and access levers are no longer required

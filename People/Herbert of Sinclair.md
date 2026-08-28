@@ -13,6 +13,7 @@ type: person
 ## Artefacts
 <!-- artefacts:start -->
 ### Wrote
+- [[Hartley Termination]]
 - [[Herbert's Postcard]]
 - [[Laboratory Email - 1]]
 - [[Office Email - 2]]

@@ -11,4 +11,5 @@ area: outer
 ## Artefacts
 <!-- artefacts:start -->
 - [[Hovel Room 46 Note]]
+- [[Notice Of Termination]]
 <!-- artefacts:end -->

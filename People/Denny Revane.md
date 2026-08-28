@@ -11,6 +11,9 @@ type: person
 
 ## Artefacts
 <!-- artefacts:start -->
+### Received
+- [[Notice Of Termination]]
+
 ### Appears in
 - [[Garage Secret Letter]]
 - [[Mail Room Note]]

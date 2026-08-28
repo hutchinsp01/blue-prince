@@ -12,9 +12,11 @@ type: person
 ### Wrote
 - [[Cloister Note]]
 - [[Garage Note]]
+- [[Notice Of Termination]]
 - [[Office Email - 1]]
 - [[Security Email - 2]]
 - [[Security Email - 4]]
+- [[Staff Notice - Maids Chambers]]
 
 ### Received
 - [[Security Email - 3]]

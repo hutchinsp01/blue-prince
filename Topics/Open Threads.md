@@ -7,19 +7,12 @@ type: topic
 ## To do
 
 - [ ] Need to find a way to turn off the [[Freezer]] — [[Furnace]]!
-- [ ] Get safety deposit box keys and [[Vault]] — got 3
-- [ ] Unlock the fountain when I get the basement key — 3rd time the charm ([[Pump Room]])
-- [ ] Set Reservoir to 6 [[Reservoir Level]] - [[Reservoir]]
-
-## Rooms to draft
-
-- [ ] Extra [[Classroom]] — to take the final exam
+- [ ] Figure out how to get access to reservoir pipe
 
 ## Sanctum keys still open
 
 Full table in [[Sanctum Keys]].
 
-- [ ] 2nd — locked tight in the vault of a bank → [[Vault]]
 - [ ] 3rd — high up, among all the clocks → need [[Clock Tower]]
 - [ ] 5th — held by a king on his throne → [[Lavatory]]? Electromagnet in the toilet was a **NOPE**
 - [ ] 6th — in a station, left by one of your own → [[Coat Check]] / cloak room?

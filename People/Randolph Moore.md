@@ -21,6 +21,7 @@ IT person — also sorted out some experiments in the [[Laboratory]] ([[Servants
 ## Artefacts
 <!-- artefacts:start -->
 ### Wrote
+- [[Admin Key Note]]
 - [[Laboratory Email - 2]]
 - [[Laboratory Email - 3]]
 - [[Mail Room - Letter 1]]
