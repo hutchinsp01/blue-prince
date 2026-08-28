@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Reservoir]]"
 location:
-found:
 dated: 5/3/1918
 magnified: true
 ---

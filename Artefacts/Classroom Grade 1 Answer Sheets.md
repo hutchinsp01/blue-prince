@@ -4,7 +4,6 @@ kind: note
 room: "[[Classroom]]"
 location:
   - Grade 1
-found:
 dated:
 magnified: false
 ---

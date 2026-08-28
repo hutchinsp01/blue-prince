@@ -3,7 +3,6 @@ type: artefact
 kind: letter
 room: "[[Freezer]]"
 location:
-found:
 dated:
 magnified: false
 from: "[[Herbert of Sinclair]]"

@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Solarium]]"
 location:
-found:
 dated:
 magnified: false
 from: "[[Bridgette]]"

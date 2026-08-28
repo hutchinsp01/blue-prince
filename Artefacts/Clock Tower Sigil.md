@@ -3,7 +3,6 @@ type: artefact
 kind: sigil
 room: "[[Clock Tower]]"
 location:
-found:
 dated:
 magnified: false
 ---

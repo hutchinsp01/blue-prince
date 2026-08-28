@@ -5,7 +5,6 @@ room: "[[Her Ladyship's Chamber]]"
 people:
   - "[[Simon H Sinclair]]"
 location: 
-found: 
 dated: 
 magnified: true
 ---

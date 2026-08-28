@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Blackbridge Grotto]]"
 location:
-found:
 dated:
 magnified: false
 people:

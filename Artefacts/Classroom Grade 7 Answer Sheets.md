@@ -3,7 +3,6 @@ type: artefact
 kind: sheet
 room: "[[Classroom]]"
 location: 
-found: 
 dated: 
 magnified: false
 ---

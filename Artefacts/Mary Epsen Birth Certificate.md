@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Archives]]"
 location:
-found:
 dated: 22/01/1958
 magnified: false
 people:

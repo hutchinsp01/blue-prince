@@ -5,7 +5,6 @@ room: "[[Her Ladyship's Chamber]]"
 people:
   - "[[Lord William Epsen]]"
 location: 
-found: 
 dated: 
 magnified: true
 ---

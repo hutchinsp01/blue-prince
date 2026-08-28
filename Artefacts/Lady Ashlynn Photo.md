@@ -5,7 +5,6 @@ room: "[[Her Ladyship's Chamber]]"
 people:
   - "[[Lady Ashlynn]]"
 location: 
-found: 
 dated: 
 magnified: true
 ---

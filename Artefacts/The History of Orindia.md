@@ -3,7 +3,6 @@ type: artefact
 kind: book
 room: "[[Library]]"
 aliases:
-found:
 dated:
 magnified: false
 ---

@@ -5,7 +5,6 @@ room: "[[Drafting Studio]]"
 people:
   - "[[Herbert of Sinclair]]"
 location: 
-found: 
 dated: 
 magnified: false
 ---

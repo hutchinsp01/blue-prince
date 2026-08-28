@@ -4,7 +4,6 @@ kind: sheet
 room: "[[Classroom]]"
 location:
   - Grade 6
-found:
 dated:
 magnified: false
 ---

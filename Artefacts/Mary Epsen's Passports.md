@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Vault]]"
 location:
-found: 
 dated:
 magnified: false
 people:

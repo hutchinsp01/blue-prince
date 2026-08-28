@@ -26,8 +26,9 @@ LINK = re.compile(r"\[\[([^\]|#]+?)(?:\|[^\]]*)?\]\]")
 PATTERN = re.compile(
     rf"\n*{re.escape(HEADING)}\n{re.escape(START)}.*?{re.escape(END)}", re.S)
 
-# frontmatter field -> subheading on the person's note, in display order
-ROLES = [("from", "Wrote"), ("to", "Received"), ("people", "Appears in")]
+# frontmatter fields -> subheading on the person's note, in display order
+ROLES = [(("from", "author"), "Wrote"), (("to",), "Received"),
+         (("people",), "Appears in")]
 
 
 def frontmatter(text: str) -> str:
@@ -69,11 +70,12 @@ def collect() -> tuple[dict, dict, list]:
             target = resolve(room, rooms_known, rooms_alias)
             (by_room[target].append(p.stem) if target
              else missing.append(("room", room, p.stem)))
-        for key, _ in ROLES:
-            for who in (w.strip() for w in LINK.findall(field(fm, key))):
-                target = resolve(who, ppl_known, ppl_alias)
-                (by_person[target][key].append(p.stem) if target
-                 else missing.append((key, who, p.stem)))
+        for keys, _ in ROLES:
+            for key in keys:
+                for who in (w.strip() for w in LINK.findall(field(fm, key))):
+                    target = resolve(who, ppl_known, ppl_alias)
+                    (by_person[target][key].append(p.stem) if target
+                     else missing.append((key, who, p.stem)))
     return by_room, by_person, missing
 
 
@@ -126,9 +128,10 @@ def main() -> None:
         lines: list[str] = []
         if not remove:
             roles = by_person.get(p.stem, {})
-            for key, label in ROLES:
-                if roles.get(key):
-                    lines += [f"### {label}"] + render(roles[key]) + [""]
+            for keys, label in ROLES:
+                names = [n for key in keys for n in roles.get(key, [])]
+                if names:
+                    lines += [f"### {label}"] + render(names) + [""]
             while lines and lines[-1] == "":
                 lines.pop()
         if update(p, lines, check):

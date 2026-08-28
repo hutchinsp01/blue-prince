@@ -4,7 +4,6 @@ kind: note
 room: "[[The Underpass]]"
 location:
   - above gear room
-found:
 dated: 3/1/1917
 magnified: false
 ---

@@ -5,7 +5,6 @@ room:
   - "[[Weight Room]]"
   - "[[Catacombs]]"
 location:
-found: 
 dated:
 magnified: false
 ---

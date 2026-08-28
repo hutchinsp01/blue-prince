@@ -5,7 +5,6 @@ room: "[[Vault]]"
 from: "[[Mary Epsen]]"
 to: Uncle
 location: 
-found: 
 dated: 
 magnified: false
 ---

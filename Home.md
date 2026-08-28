@@ -46,12 +46,13 @@ It's read by `blue_prince.py` and `server.py` — not part of the vault.
   - `location` — where in the room (e.g. `Door 1`, `box 370`)
   - `opens` — for keys: what it unlocks, as a link. Gives the door or room
     a backlink to the key without needing an index
+  - `author` — for books and logs: who wrote it, as a link. Grouped under
+    **Wrote** on the person's note, same as `from`
   - `from` / `to` — correspondence only. Add them when there's an obvious
     sender; don't stamp them on maps, boards or logs. Link where the person
     has a note, plain text while they're unidentified (e.g. `to: Uncle`)
   - `people` — who the artefact depicts or is about, as a YAML list. Use it
     for portraits, photos and group scenes; `from`/`to` already cover letters
-  - `found` — day number, matching `log.csv`
   - `dated` — the date printed on the artefact itself
   - `magnified` — have you checked it with the magnifying glass?
     Renders as a checkbox. Find the outstanding ones with the search

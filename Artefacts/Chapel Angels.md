@@ -3,7 +3,6 @@ type: artefact
 kind: photo
 room: "[[Chapel]]"
 location: 
-found: 
 dated: 
 magnified: false
 ---

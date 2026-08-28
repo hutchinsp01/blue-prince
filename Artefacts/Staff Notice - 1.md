@@ -6,7 +6,6 @@ room:
   - "[[Break Room]]"
   - "[[Security]]"
 location: Pin Board
-found:
 dated:
 magnified: true
 ---

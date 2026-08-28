@@ -3,7 +3,6 @@ type: artefact
 kind: photo
 room: "[[Darkroom]]"
 location:
-found:
 dated:
 magnified: true
 ---

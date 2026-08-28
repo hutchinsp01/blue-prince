@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Office]]"
 location:
-found:
 dated:
 magnified: false
 ---

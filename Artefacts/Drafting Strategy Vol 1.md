@@ -3,7 +3,6 @@ type: artefact
 kind: book
 room: "[[Drafting Studio]]"
 location:
-found:
 dated:
 magnified: true
 ---

@@ -4,7 +4,6 @@ kind: letter
 room: "[[Boudoir]]"
 location:
   - safe
-found:
 dated:
 magnified: false
 from: "[[Daniel Jones]]"

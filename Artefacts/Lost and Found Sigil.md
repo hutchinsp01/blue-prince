@@ -3,7 +3,6 @@ type: artefact
 kind: sigil
 room: "[[Lost and Found]]"
 location: 
-found: 
 dated: 
 magnified: false
 ---

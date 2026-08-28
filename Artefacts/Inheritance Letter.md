@@ -3,7 +3,6 @@ type: artefact
 kind: letter
 room: "[[Entrance Hall]]"
 location: 
-found:
 dated:
 magnified: false
 ---

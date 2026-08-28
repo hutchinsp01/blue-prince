@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[West Wing Hall]]"
 location:
-found:
 dated:
 magnified: false
 ---

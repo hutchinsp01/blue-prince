@@ -5,7 +5,6 @@ room: "[[Inner Sanctum]]"
 from: "[[Herbert of Sinclair]]"
 to: Mount Holly Estate
 location: Door 1
-found:
 dated:
 magnified: false
 ---

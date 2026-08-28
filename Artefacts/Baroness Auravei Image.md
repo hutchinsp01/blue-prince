@@ -4,7 +4,6 @@ kind: photo
 room:
   - "[[Bedroom]]"
 location:
-found:
 dated:
 people:
   - "[[Baroness Auravei]]"

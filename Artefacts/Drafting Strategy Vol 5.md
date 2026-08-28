@@ -2,7 +2,6 @@
 type: artefact
 kind: book
 room: "[[Library]]"
-found: 
 dated: 
 magnified: false
 ---

@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Tomb]]"
 location: Clara Epsen's Grave
-found:
 dated:
 magnified: false
 ---

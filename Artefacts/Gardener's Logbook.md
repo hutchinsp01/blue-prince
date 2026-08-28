@@ -3,7 +3,6 @@ type: artefact
 kind: book
 room: "[[Apple Orchard]]"
 location:
-found:
 dated:
 magnified: true
 author: "[[Robert Nogula]]"

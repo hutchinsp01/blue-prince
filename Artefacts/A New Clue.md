@@ -3,7 +3,6 @@ type: artefact
 kind: book
 room: "[[Library]]"
 author: "[[Mary Epsen|Marion Marigold]]"
-found:
 dated:
 magnified: true
 ---

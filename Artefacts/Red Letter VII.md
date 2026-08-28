@@ -4,7 +4,6 @@ kind: letter
 room: "[[Shelter]]"
 location:
   - safe
-found:
 dated:
 magnified: false
 from: "[[Courtney]]"

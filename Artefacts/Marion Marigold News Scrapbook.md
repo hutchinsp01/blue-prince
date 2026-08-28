@@ -3,7 +3,6 @@ type: artefact
 kind: book
 room: "[[Archives]]"
 location:
-found:
 dated:
 magnified: true
 people:

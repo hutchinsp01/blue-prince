@@ -3,7 +3,6 @@ type: artefact
 kind: letter
 room: "[[Hovel]]"
 location:
-found:
 dated:
 magnified: false
 from: "[[Anne Babbage]]"

@@ -5,7 +5,6 @@ room: "[[Music Room]]"
 location:
   - "[[Music Room]]"
   - "[[Workshop]]"
-found:
 dated:
 magnified: false
 ---

@@ -3,7 +3,6 @@ type: artefact
 kind: letter
 room: "[[Tomb]]"
 location: Herberts Grave
-found:
 dated:
 magnified: false
 ---

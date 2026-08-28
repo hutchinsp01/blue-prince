@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Schoolhouse]]"
 location:
-found:
 dated:
 magnified: false
 ---

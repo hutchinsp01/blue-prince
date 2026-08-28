@@ -3,7 +3,6 @@ type: artefact
 kind: book
 room: "[[Nursery]]"
 location:
-found:
 dated:
 magnified: true
 ---

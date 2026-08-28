@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[The Underpass]]"
 location:
-found:
 dated: 1/13/1916
 magnified: true
 ---

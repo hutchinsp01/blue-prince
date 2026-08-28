@@ -10,7 +10,6 @@ people:
   - "[[Count Isaac Gates]]"
   - "[[Je Ari Yenna]]"
 location:
-found:
 dated:
 magnified: false
 ---

@@ -2,7 +2,6 @@
 type: artefact
 kind: book
 room: "[[Observatory]]"
-found:
 dated:
 magnified: true
 author: "[[Richard Witt]]"

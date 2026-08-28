@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[Music Room]]"
 location:
-found:
 dated:
 magnified: true
 ---

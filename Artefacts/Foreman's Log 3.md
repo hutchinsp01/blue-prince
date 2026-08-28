@@ -3,7 +3,6 @@ type: artefact
 kind: note
 room: "[[The Precipice]]"
 location:
-found:
 dated: 7/2/1915
 magnified: false
 ---

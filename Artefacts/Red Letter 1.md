@@ -4,7 +4,6 @@ kind: letter
 room: "[[The Underpass]]"
 location:
   - above gear room
-found:
 dated: 08/05
 magnified: true
 from: "[[Worth Laude]]"

@@ -3,7 +3,6 @@ type: artefact
 kind: letter
 room: "[[Mail Room]]"
 location:
-found:
 dated:
 magnified: true
 to: "[[Simon P Jones]]"

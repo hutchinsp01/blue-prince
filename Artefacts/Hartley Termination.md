@@ -3,7 +3,6 @@ type: artefact
 kind: letter
 room: "[[Servants Quarters]]"
 location:
-found:
 dated:
 magnified: false
 from: "[[Herbert of Sinclair]]"

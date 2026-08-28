@@ -3,7 +3,6 @@ type: artefact
 kind: book
 room: "[[The Precipice]]"
 location: 
-found: 
 dated: 
 magnified: false
 ---

@@ -4,7 +4,6 @@ kind: book
 room: "[[Library]]"
 aliases:
   - Sightseer' guide to reddington
-found: 
 dated:
 magnified: false
 ---
