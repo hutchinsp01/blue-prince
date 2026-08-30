@@ -28,6 +28,11 @@ She addresses the recipient of the [[Vault Box 370 Note]] as **"Uncle"** — a l
 - [[A New Clue]]
 - [[Vault Box 370 Note]]
 
+### Received
+- [[Red Letter 2]]
+- [[Red Letter six]]
+- [[Red Prince Rejection]]
+
 ### Appears in
 - [[Blackbridge Logs]]
 - [[Family Tree]]

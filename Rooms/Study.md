@@ -15,6 +15,7 @@ area: house
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Red Letter 2]]
 - [[Study Image Hint]]
 - [[Study Image Instructions]]
 <!-- artefacts:end -->

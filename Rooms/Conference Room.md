@@ -2,7 +2,7 @@
 type: room
 area: house
 ---
-
+	
 # Conference Room
 
 - After meeting all notes put in office safe

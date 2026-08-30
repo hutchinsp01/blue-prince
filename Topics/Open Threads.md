@@ -10,6 +10,8 @@ type: topic
       Did this, but was 3 rooms away and 17 degrees, I think I need to be slightly closer to thaw the server?
 - [ ] Figure out how to get access to reservoir pipe
 - [ ] Magnify grade 4 maps
+- [ ] Visit the clocktower at 1:30
+- [ ] Do something on Tuesday with - [[Exhibit Note]]
 
 ## Oddities
 - [ ] Page 9 of [[Her Ladyships Sleep Diary]] shows 3 door room in [[West Path]]

@@ -19,4 +19,7 @@ type: person
 - [[Mail Room - Letter 5]]
 - [[Mail Room - Letter 6]]
 - [[Mail Room - Letter 7]]
+
+### Appears in
+- [[Reddington Herald]]
 <!-- artefacts:end -->

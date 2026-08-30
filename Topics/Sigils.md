@@ -20,10 +20,14 @@ status: active investigation
 ## Mountains
 
 ## Sand Timer - OPEN
+- Not [[Lost and Found Sigil]]
 
 ## Heart - OPEN
+- Is this region called Corarica - [[Dormitory]] flags
+- Not [[Lost and Found Sigil]]
 
 ## Semi Circle - OPEN
+- Not [[Lost and Found Sigil]]
 
 ## Lump
 
@@ -31,7 +35,7 @@ status: active investigation
 
 # Fragments
 [[Lost and Found Sigil]]
-[[Clock Tower Sigil]]
+[[Clock Tower Sigil]] - Not really enough info to test out yet
 # See also
 
 - [[House of Orinda]] — "Orinda" is a Core value

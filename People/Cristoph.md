@@ -18,6 +18,7 @@ aliases:
 <!-- artefacts:start -->
 ### Received
 - [[Garage Note]]
+- [[Moonshine Note]]
 
 ### Appears in
 - [[Garage Secret Letter]]

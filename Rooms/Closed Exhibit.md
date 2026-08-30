@@ -1,14 +1,10 @@
 ---
 type: room
 area: house
-status: no notes yet
 ---
-
-# Morning Room
-
-_No notes for this room yet._
+The crown is Paper? - According to [[Security]]
 
 ## Artefacts
 <!-- artefacts:start -->
-- [[Reddington Herald]]
+- [[Exhibit Note]]
 <!-- artefacts:end -->

@@ -10,5 +10,7 @@ area: house
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Attic Image]]
 - [[Attic Security Note]]
+- [[Red Prince Rejection]]
 <!-- artefacts:end -->

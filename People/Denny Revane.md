@@ -11,6 +11,9 @@ type: person
 
 ## Artefacts
 <!-- artefacts:start -->
+### Wrote
+- [[Moonshine Note]]
+
 ### Received
 - [[Notice Of Termination]]
 

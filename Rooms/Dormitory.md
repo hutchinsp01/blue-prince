@@ -1,14 +1,9 @@
 ---
 type: room
 area: house
-status: no notes yet
 ---
-
-# Morning Room
-
-_No notes for this room yet._
 
 ## Artefacts
 <!-- artefacts:start -->
-- [[Reddington Herald]]
+- [[Drafting Strategy Vol 2]]
 <!-- artefacts:end -->

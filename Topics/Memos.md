@@ -6,7 +6,7 @@ type: topic
 
 ## Colour rules
 - **Blue memos** — true
-- **Red memos** — false
+- **Red memos** — false - Unless written by hand
 - **Green memos** — depends on where you find them:
   - Green memos in [[Hartley]]'s room are always false ([[Darkroom]])
 

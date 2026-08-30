@@ -18,6 +18,7 @@ type: person
 - [[Herbert's Postcard]]
 - [[Laboratory Email - 1]]
 - [[Office Email - 2]]
+- [[Red Letter six]]
 
 ### Received
 - [[Laboratory Email - 2]]
@@ -26,8 +27,10 @@ type: person
 - [[Office Email - 4]]
 - [[Parlour Instructions]]
 - [[Red Letter 4]]
+- [[Red Letter 8]]
 
 ### Appears in
 - [[Family Tree]]
 - [[Painting of Herbert]]
+- [[Reddington Herald]]
 <!-- artefacts:end -->

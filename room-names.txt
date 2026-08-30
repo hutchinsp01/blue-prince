@@ -15,6 +15,7 @@ chapel
 classroom
 clocktower
 cloister-of-mila
+closed-exhibit
 coat-check
 commissary
 conference-room
@@ -24,6 +25,7 @@ courtyard
 darkroom
 den
 dining-room
+dormitory
 dovecote
 drafting-studio
 drawing-room
@@ -68,10 +70,12 @@ patio
 planetarium
 pool
 pump-room
+reading-nook
 room-8
 root-cellar
 rotunda
 rumpus-room
+sauna
 schoolhouse
 secret-garden
 secret-passage

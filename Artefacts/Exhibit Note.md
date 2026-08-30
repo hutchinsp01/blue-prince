@@ -1,12 +1,9 @@
 ---
 type: artefact
 kind: note
-room: "[[Attic]]"
+room: "[[Closed Exhibit]]"
 location:
 dated:
 magnified: true
 ---
-
-# Attic Security Note
-
-![[attic-security.png]]
+![[exhibit-note.png]]
