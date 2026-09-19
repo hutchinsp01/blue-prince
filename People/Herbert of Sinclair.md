@@ -22,8 +22,10 @@ type: person
 - [[Office Email - 2]]
 - [[Orinda Aries Postcard]]
 - [[Red Letter six]]
+- [[Verra Postcard]]
 
 ### Received
+- [[Dovecote Letter 3]]
 - [[Laboratory Email - 2]]
 - [[Office Email - 1]]
 - [[Office Email - 3]]

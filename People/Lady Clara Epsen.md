@@ -12,6 +12,10 @@ type: person
 
 ## Artefacts
 <!-- artefacts:start -->
+### Received
+- [[Dovecote Letter 1]]
+- [[Dovecote Letter 2]]
+
 ### Appears in
 - [[Family Tree]]
 - [[Mary Epsen Birth Certificate]]

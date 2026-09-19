@@ -8,9 +8,9 @@ area: underground
 - Doors
   - Orinda Aries - SOLVED
   - Fenn Aries - SOLVED
-  - Arch Aries - CLOSED
-  - Eraja - OPEN
-  - Corarica - OPEN
+  - Arch Aries - SOLVED
+  - Eraja - SOLVED
+  - Corarica - SOLVED
   - Semi circle region - OPEN
   - Knob - CLOSED
   - Diamond - CLOSED
@@ -22,8 +22,10 @@ area: underground
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Arch Aries Postcard]]
 - [[Corarica Postcard]]
 - [[Eraja Postcard]]
 - [[Fenn Aries Postcard]]
 - [[Orinda Aries Postcard]]
+- [[Verra Postcard]]
 <!-- artefacts:end -->

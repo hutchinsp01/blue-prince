@@ -25,14 +25,15 @@ ss
 | Rays      | Roads, Streets, Carriages |
 | Moats     | Martial                   |
 | Weather   | Foggy                     |
-## Arch Aries
-| Component | Value      |
-| --------- | ---------- |
-| Core      | Arch Aries |
-| Border    | Yellow     |
-| Rays      |            |
-| Moats     | Industrial |
-| Weather   | Stormy     
+## Arch Aries - SOLVED
+
+| Component | Value        |
+| --------- | ------------ |
+| Core      | Arch Aries   |
+| Border    | Yellow       |
+| Rays      | Train System |
+| Moats     | Industrial   |
+| Weather   | Stormy       
 
 ## Eraja - SOLVED
 [[Clock Tower Sigil]]
@@ -64,14 +65,16 @@ ss
 | Moats     |       |
 | Weather   |       |
 
-## Lump
-| Component | Value |
-| --------- | ----- |
-| Core      |       |
-| Border    |       |
-| Rays      |       |
-| Moats     |       |
-| Weather   |       |
+## Verra - SOLVED
+[[Lost and Found Sigil]]
+
+| Component | Value      |
+| --------- | ---------- |
+| Core      | Verra      |
+| Border    | Pink       |
+| Rays      | Turtleback |
+| Moats     | Spiritual  |
+| Weather   | Heat       |
 
 ## Diamond - Nuance?
 
@@ -84,17 +87,6 @@ ss
 | Weather   |            |
 
 
-# Fragments
-## Lost and Found
-[[Lost and Found Sigil]]
-
-| Component | Value              |
-| --------- | ------------------ |
-| Core      |                    |
-| Border    | Pink               |
-| Rays      | Naval / Turtleback |
-| Moats     | Spiritual          |
-| Weather   | Heat               |
 
 
 # See also

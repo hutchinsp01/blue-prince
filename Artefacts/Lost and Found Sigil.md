@@ -7,6 +7,7 @@ dated:
 magnified: false
 ---
 
+
 # Lost and Found Sigil
 
 A different sigil to the [[Secret Garden]] one — see [[Sigils]].
