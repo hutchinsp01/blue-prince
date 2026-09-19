@@ -14,8 +14,8 @@ area: underground
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Castle Puzzle?]]
 - [[Foreman's Log 20]]
 - [[Foreman's Log 3]]
 - [[Realm & Rune - Foremans Copy]]
-- [[Sigil Reference Book]]
 <!-- artefacts:end -->

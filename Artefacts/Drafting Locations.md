@@ -4,7 +4,7 @@ kind: note
 room: "[[Conservatory]]"
 location:
 dated:
-magnified: false
+magnified: true
 ---
 
 ![[drafting-locations.png]]

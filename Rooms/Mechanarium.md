@@ -3,7 +3,6 @@ type: room
 area: house
 status: no notes yet
 ---
+Has an [[Antechamber]] Lever
 
-# Mechanarium
-
-_No notes for this room yet._
+Try drafting after lots of mech rooms

@@ -12,4 +12,5 @@ area: house
 <!-- artefacts:start -->
 - [[Drafting Strategy Vol 1]]
 - [[Painting of Herbert]]
+- [[Red Note 5]]
 <!-- artefacts:end -->

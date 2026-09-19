@@ -2,7 +2,7 @@
 type: room
 area: house
 ---
-
+w
 # Workshop
 
 - Letters - LCEMGMGILE (I'm pretty sure these are just the painting letters)
@@ -11,7 +11,7 @@ area: house
   - Magnifying Glass + Metal Detector = Burning Glass
   - Shovel + Metal Detector = Detector Shovel
   - Shovel + Compass = Dowsing Rod
-  - Sledge Hammer + Battery Pack + Lever = Power Hammer
+  - Sledge Hammer + Battery Pack + Lever = nPower Hammer
   - Shovel + Battery Pack + Lever = Jack Hammer
   - Lock Pick + Metal Detector = Pick Sound Amplifier
   - Battery Pack + Compass = Electromagnet

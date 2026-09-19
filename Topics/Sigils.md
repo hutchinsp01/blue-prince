@@ -2,41 +2,101 @@
 type: topic
 status: active investigation
 ---
-
+ss
 # Sigils
 
-## Orindia - SOLVED
+## Orinda Aries - SOLVED
 [[Orinda Sigil]] - [[Secret Garden]]
 
-|Component|Secret Garden value|
-|---|---|
-|Core|Orinda|
-|Border|Black|
-|Rays|3|
-|Moats|Metropolitan ×5|
-|Weather?|Fog|]]
-## Pentagon
+| Component | Value        |
+| --------- | ------------ |
+| Core      | Orinda       |
+| Border    | Black        |
+| Rays      | Train System |
+| Moats     | Metropolitan |
+| Weather   | Foggy        |
+## Fenn Aries - SOLVED
 [[Mary Epsen Birth Certificate]]
-## Mountains
 
-## Sand Timer - OPEN
-- Not [[Lost and Found Sigil]]
+| Component | Value                     |
+| --------- | ------------------------- |
+| Core      | Fenn Aries                |
+| Border    | Red                       |
+| Rays      | Roads, Streets, Carriages |
+| Moats     | Martial                   |
+| Weather   | Foggy                     |
+## Arch Aries
+| Component | Value      |
+| --------- | ---------- |
+| Core      | Arch Aries |
+| Border    | Yellow     |
+| Rays      |            |
+| Moats     | Industrial |
+| Weather   | Stormy     
 
-## Heart - OPEN
-- Is this region called Corarica - [[Dormitory]] flags
-- Not [[Lost and Found Sigil]]
+## Eraja - SOLVED
+[[Clock Tower Sigil]]
+
+| Component | Value        |
+| --------- | ------------ |
+| Core      | Eraja        |
+| Border    | Violet       |
+| Rays      | Train System |
+| Moats     | Poetic       |
+| Weather   | Rainy        |
+
+## Corarica - SOLVED
+
+| Component | Value                     |
+| --------- | ------------------------- |
+| Core      | Corarica                  |
+| Border    | Orange                    |
+| Rays      | Roads, Streets, Carriages |
+| Moats     | Academic                  |
+| Weather   | Snow                      |
 
 ## Semi Circle - OPEN
-- Not [[Lost and Found Sigil]]
+| Component | Value |
+| --------- | ----- |
+| Core      |       |
+| Border    |       |
+| Rays      |       |
+| Moats     |       |
+| Weather   |       |
 
 ## Lump
+| Component | Value |
+| --------- | ----- |
+| Core      |       |
+| Border    |       |
+| Rays      |       |
+| Moats     |       |
+| Weather   |       |
 
-## Diamond
+## Diamond - Nuance?
+
+| Component | Value      |
+| --------- | ---------- |
+| Core      | Nuance     |
+| Border    | Green      |
+| Rays      | Air Travel |
+| Moats     |            |
+| Weather   |            |
+
 
 # Fragments
+## Lost and Found
 [[Lost and Found Sigil]]
-[[Clock Tower Sigil]] - Not really enough info to test out yet
+
+| Component | Value              |
+| --------- | ------------------ |
+| Core      |                    |
+| Border    | Pink               |
+| Rays      | Naval / Turtleback |
+| Moats     | Spiritual          |
+| Weather   | Heat               |
+
+
 # See also
 
-- [[House of Orinda]] — "Orinda" is a Core value
 - [[The Precipice]]

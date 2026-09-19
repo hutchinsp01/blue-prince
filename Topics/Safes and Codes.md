@@ -12,10 +12,10 @@ type: topic
 | [[The Grounds]] ([[Apple Orchard]]) | **1128** | **Solved** — from the tree dated **11-28** in the [[Darkroom]] |
 | [[Shelter]]                         | —        | Unlocked with date and time, and waiting                       |
 | [[Office]]                          | 0303     | Probably wrong — code found in the [[Conference Room]]         |
-| [[Study]]                           | -        | Queen on D8 - Queens Date??                                    |
+| [[Study]]                           | 0812     | Queen on D8 - Queens Date??                                    |
 | [[Drawing Room]]                    | 1504     | Candle stick on left                                           |
 | [[The Underpass]]                   | May8     | Solved - Only possible solution                                |
-| [[Drafting Studio]]                 | --       | Use magnifying glass on it                                     |
+| [[Drafting Studio]]                 | 0812     | Use magnifying glass on it                                     |
 
 ## Loose numbers
 

@@ -20,6 +20,7 @@ import csv
 import sys
 from collections.abc import Iterable, Iterator
 from dataclasses import dataclass, fields
+from datetime import date, timedelta
 from pathlib import Path
 
 COLUMNS = ("A", "B", "C", "D", "E")
@@ -30,8 +31,15 @@ DIRECTIONS = ("N", "E", "S", "W")
 OPPOSITE = {"N": "S", "S": "N", "E": "W", "W": "E"}
 _STEP = {"N": (1, 0), "S": (-1, 0), "E": (0, 1), "W": (0, -1)}  # (row delta, column-index delta)
 
+DAY_ONE = date(1987, 11, 7)  # the Drafting Studio calendar: day one is Sat 7 November
+
 DEFAULT_LOG = Path(__file__).with_name("log.csv")
 ROOM_NAMES_FILE = Path(__file__).with_name("room-names.txt")
+
+
+def day_date(day: int) -> date:
+    """The calendar date for a day number — day 1 is Sat 7 November 1987."""
+    return DAY_ONE + timedelta(days=day - 1)
 
 
 def load_room_names(path: str | Path = ROOM_NAMES_FILE) -> list[str]:
@@ -151,6 +159,11 @@ class Day:
 
     def __repr__(self) -> str:
         return f"Day(day={self.day}, rooms={len(self)})"
+
+    @property
+    def date(self) -> date:
+        """The calendar date this day fell on (day 1 = Sat 7 November 1987)."""
+        return day_date(self.day)
 
     @property
     def rooms(self) -> list[Room]:

@@ -4,7 +4,8 @@ kind: note
 room: "[[Inner Sanctum]]"
 from: "[[Herbert of Sinclair]]"
 to: Mount Holly Estate
-location: Door 1
+location:
+  - Orinda Aries
 dated:
 magnified: false
 ---

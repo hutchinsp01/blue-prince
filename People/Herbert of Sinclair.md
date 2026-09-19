@@ -13,11 +13,14 @@ type: person
 ## Artefacts
 <!-- artefacts:start -->
 ### Wrote
+- [[Corarica Postcard]]
+- [[Eraja Postcard]]
+- [[Fenn Aries Postcard]]
 - [[Freezer Letter]]
 - [[Hartley Termination]]
-- [[Herbert's Postcard]]
 - [[Laboratory Email - 1]]
 - [[Office Email - 2]]
+- [[Orinda Aries Postcard]]
 - [[Red Letter six]]
 
 ### Received

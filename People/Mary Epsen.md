@@ -26,6 +26,7 @@ She addresses the recipient of the [[Vault Box 370 Note]] as **"Uncle"** — a l
 <!-- artefacts:start -->
 ### Wrote
 - [[A New Clue]]
+- [[Red Note 5]]
 - [[Vault Box 370 Note]]
 
 ### Received

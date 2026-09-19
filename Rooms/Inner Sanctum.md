@@ -5,11 +5,15 @@ area: underground
 
 # Inner Sanctum
 
-- Unlocked
-  - Hour glass region
-  - Heart region
-  - Semi circle region
-  - Odd Rectangle - SOLVED - Door 1
+- Doors
+  - Orinda Aries - SOLVED
+  - Fenn Aries - SOLVED
+  - Arch Aries - CLOSED
+  - Eraja - OPEN
+  - Corarica - OPEN
+  - Semi circle region - OPEN
+  - Knob - CLOSED
+  - Diamond - CLOSED
 
 
 ## See also
@@ -18,5 +22,8 @@ area: underground
 
 ## Artefacts
 <!-- artefacts:start -->
-- [[Herbert's Postcard]]
+- [[Corarica Postcard]]
+- [[Eraja Postcard]]
+- [[Fenn Aries Postcard]]
+- [[Orinda Aries Postcard]]
 <!-- artefacts:end -->

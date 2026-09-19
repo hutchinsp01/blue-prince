@@ -15,8 +15,8 @@ import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
-from blue_prince import (COLUMNS, DEFAULT_LOG, OUTER_COLUMN, Log, Room,
-                         add_room_name, load_room_names)
+from blue_prince import (COLUMNS, DAY_ONE, DEFAULT_LOG, OUTER_COLUMN, Log,
+                         Room, add_room_name, load_room_names)
 
 DEFAULT_PORT = 8765  # 8000 is often taken (Docker/Django); pick something quieter
 
@@ -50,7 +50,8 @@ def build_state(day: int | None = None) -> dict[str, object]:
             chess_by_room[name] = {"chess_colour": r.chess_colour.strip().lower(),
                                    "chess_piece": piece, "day": r.day}
 
-    return {"day": day, "days": days, "columns": list(COLUMNS), "rooms": rooms,
+    return {"day": day, "day_one": DAY_ONE.isoformat(), "days": days,
+            "columns": list(COLUMNS), "rooms": rooms,
             "chess_by_room": chess_by_room, "room_names": load_room_names()}
 
 
@@ -243,6 +244,7 @@ PAGE = r"""<!doctype html>
 <header>
   <h1>Blue Prince — room log</h1>
   <label style="color:#fff">Day <input id="day" type="number" min="1" value="14"></label>
+  <span id="dayDate" class="hint"></span>
   <button id="load">Load</button>
 </header>
 <main>
@@ -315,6 +317,24 @@ const esc = s => s.replace(/[&<>"']/g, c =>
 const initials = n => (n || "").split(/[^a-z0-9]+/i).filter(Boolean)
   .map(w => w[0]).join("").toUpperCase() || "·";
 const $ = id => document.getElementById(id);
+const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTHS = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"];
+const ordinal = n => n + (n % 100 >= 11 && n % 100 <= 13 ? "th"
+                        : { 1: "st", 2: "nd", 3: "rd" }[n % 10] || "th");
+
+// Day 1 is the date on the Drafting Studio calendar; every day after is the next one.
+function dayDate(day) {
+  if (!state || !state.day_one || !Number.isFinite(day)) return "";
+  const [y, m, d] = state.day_one.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d + (day - 1)));
+  return `${WEEKDAYS[dt.getUTCDay()]} ${ordinal(dt.getUTCDate())} `
+       + `${MONTHS[dt.getUTCMonth()]} ${dt.getUTCFullYear()}`;
+}
+
+function showDayDate(day) {
+  $("dayDate").textContent = dayDate(day);
+}
 let state = null;
 let sel = null;                                  // {column, row}
 let doors = { N: "", E: "", S: "", W: "" };      // "" | "exit" | "entry"
@@ -325,6 +345,7 @@ async function load(day) {
   const url = "/api/state" + (day != null ? "?day=" + day : "");
   state = await (await fetch(url)).json();
   $("day").value = state.day;
+  showDayDate(state.day);
   renderGrid();
   if (sel) selectCell(sel.column, sel.row);
 }
@@ -397,7 +418,8 @@ function renderChessChecklist() {
     }
   }
   // grid: show the COUNT in each cell (not just a tick), · when none seen
-  let html = `<div class="cl-title">Chess seen — day ${state.day} <span class="hint">(${total} total)</span></div>`;
+  let html = `<div class="cl-title">Chess seen — day ${state.day}`
+           + ` <span class="hint">${dayDate(state.day)} · ${total} total</span></div>`;
   html += '<table class="cl"><thead><tr><th></th>';
   for (const c of CHESS_COLOURS) html += `<th>${cap(c)}</th>`;
   html += "</tr></thead><tbody>";
@@ -686,6 +708,7 @@ $("delete").onclick = async () => {
 
 $("load").onclick = () => load(parseInt($("day").value));
 $("day").onchange = () => load(parseInt($("day").value));
+$("day").oninput = () => showDayDate(parseInt($("day").value));
 
 buildCompass();
 load();
