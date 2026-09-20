@@ -81,6 +81,7 @@ secret-garden
 secret-passage
 security
 servants-quarters
+servants-spare-quarters
 shelter
 showroom
 shrine

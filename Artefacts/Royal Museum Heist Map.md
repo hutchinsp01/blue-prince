@@ -7,4 +7,4 @@ dated:
 magnified: false
 ---
 
-![[royal-museum-heist-map.png]]
+![[royal-museum-heist-map.png]]![[royal-heist-map-zoom.png]]

@@ -56,14 +56,14 @@ ss
 | Moats     | Academic                  |
 | Weather   | Snow                      |
 
-## Semi Circle - OPEN
-| Component | Value |
-| --------- | ----- |
-| Core      |       |
-| Border    |       |
-| Rays      |       |
-| Moats     |       |
-| Weather   |       |
+## Mora Jai - OPEN
+| Component | Value    |
+| --------- | -------- |
+| Core      | Mora Jai |
+| Border    | White    |
+| Rays      | Boat     |
+| Moats     |          |
+| Weather   |          |
 
 ## Verra - SOLVED
 [[Lost and Found Sigil]]

@@ -40,4 +40,5 @@ area: house
 - [[Classroom Grade 7 Answer Sheets]]
 - [[Classroom Grade 8 Answer Sheets]]
 - [[Classroom Grade 8 Boards]]
+- [[Final Exam]]
 <!-- artefacts:end -->

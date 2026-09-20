@@ -12,3 +12,4 @@ magnified: false
 ![[aquarium-1.png]]
 
 ![[aquarium-2.png]]
+![[aquarium-clues-3.png]]

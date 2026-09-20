@@ -18,3 +18,4 @@ area: house
 | Green | Blue  | Sun  | Pink Boxes marked by Moon always contain false statements         |             |
 | Green | Red   | Moon | There is no realm that flies the white flag                       |             |
 | Red   | Red   | Bean | The previous box in this room contained a true statement          | False       |
+| Green | Black | Sun  | You will need a key to obtain the true treasure of the trove      | False       |

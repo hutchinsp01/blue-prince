@@ -9,5 +9,6 @@ area: house
 
 ## Artefacts
 <!-- artefacts:start -->
+- [[Lost and Found Note]]
 - [[Lost and Found Sigil]]
 <!-- artefacts:end -->

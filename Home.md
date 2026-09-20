@@ -12,10 +12,6 @@ Notes on Mount Holly. Start here.
 - [[Erajan Language]] — the foreign tongue, its grammar, and an untranslated letter
 - [[Sanctum Keys]] — 8 keys, 3 found
 - [[Safes and Codes]] — every safe, every loose number
-- [[Timeline]] — every date found, in order. 1987 is where it all happens
-- [[The Redguard]] — what is it, and what were they investigating
-- [[Red Letters]] — 8 letters by 8 different people
-- [[House of Orinda]] — the Aries line
 
 ## Reference
 
@@ -24,14 +20,6 @@ Notes on Mount Holly. Start here.
 - [[Terminals and Logins]] — SWANSONG, and the Blackbridge accounts
 - [[Open Threads]] — what to do next
 
-## Books
-
-Ten read so far, all in `Artefacts/` with `kind: book` — listed in [[Library]].
-
-## Run log
-
-`log.csv` holds the per-run drafting log (day, room, position, exits, images).
-It's read by `blue_prince.py` and `server.py` — not part of the vault.
 
 ## How this vault is organised
 

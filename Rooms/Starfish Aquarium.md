@@ -13,6 +13,7 @@ upgrade_of: Aquarium
 
 - X marks the spot under the bbq in [[Patio|patio]]
 - Arrow pointing at filing cabinet in [[Archives|archive]]
+- X Marks the spot infront of washer in [[Laundry Room|Laundry]]
 
 ## Artefacts
 <!-- artefacts:start -->

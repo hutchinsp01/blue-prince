@@ -12,7 +12,7 @@ area: underground
   - Eraja - SOLVED
   - Corarica - SOLVED
   - Semi circle region - OPEN
-  - Knob - CLOSED
+  - Verra - SOLVED
   - Diamond - CLOSED
 
 
